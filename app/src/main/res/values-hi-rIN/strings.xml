@@ -1,0 +1,219 @@
+<resources>
+    <string name='app_name'>वीडियो देखें</string>
+    <string name = "str_dev_option">आपने अपने फ़ोन में डेवलपर विकल्प सक्षम किया है, कृपया हमारे ऐप की सेवा का आनंद लेने के लिए डेवलपर विकल्प अक्षम करें।</string>
+    <string name='str_recheck'>रीचेक</string>
+    <string name='str_turnoff'>बंद करें</string>
+    <string name='str_contain_ads'>इस क्रिया में विज्ञापन हो सकते हैं</string>
+    <string name='str_recomondet'>मैं आपको इस एप्लिकेशन की अनुशंसा करता हूं </string>
+    <string name='str_choose_one'>एक चुनें</string>
+
+    <string name='str_start'>कमाना शुरू करें</string>
+    <string name='str_share'>साझा करें</string>
+    <string name='str_rate'>दर</string>
+    <string name='str_privecy'>गोपनीयता</string>
+    <string name='str_games'>गेम्स</string>
+
+    <string name='str_video'>वीडियो</string>
+    <string name='str_money'>पैसा</string>
+    <string name='str_tasks'>कार्य</string>
+    <string name='str_game'>गेम</string>
+    <string name='str_profile'>प्रोफ़ाइल</string>
+    <string name='str_q_game'>क्विज़ गेम</string>
+    <string name='str_gift_box'>उपहार बॉक्स</string>
+
+    <string name='str_spinWheel'>स्पिन व्हील</string>
+    <string name='str_scratch'>स्क्रैच</string>
+    <string name='str_scratch_card'>स्क्रैच कार्ड</string>
+    <string name='str_slot'>स्लॉट मशीन</string>
+    <string name='str_quiz'>प्रश्नोत्तरी गेम</string>
+    <string name='str_gift'>उपहार बॉक्स</string>
+    <string name='str_wallet'>वॉलेट</string>
+    <string name='str_invite'>आमंत्रित करें कमाएं</string>
+    <string name='str_rateus'>हमें रेट करें</string>
+
+    <string name='str_spinbtn'>स्पिन और &amp; कमाएँ</string>
+    <string name='str_scratchbtn'>स्क्रैच और &amp; जीतो</string>
+    <string name='str_slotbtn'>स्लॉट &amp; जीतो</string>
+    <string name='str_ansbtn'>उत्तर &amp; जीतो</string>
+    <string name='str_gifbtn'>पूरे दिन का उपहार</string>
+    <string name='str_walletbtn'>आपका बटुआ</string>
+    <string name='str_invitebtn'>आमंत्रित करें &amp; कमाएँ</string>
+    <string name='str_ratebtn'>हमें रेट करें</string>
+
+    <string name='str_delesa'>डेलेसा वान</string>
+    <string name='str_level'>स्तर 1</string>
+    <string name='str_daily_bonus'>दैनिक बोनस</string>
+
+    <string name='str_today_task'>आज का कार्य</string>
+    <string name='str_notiF_check'>आपके पास 5 संदेश हैं। इसे जांचें >></string>
+
+    <string name='str_btn1tex'>पंजीकरण \nपुरस्कार</string>
+    <string name='str_btn2tex'>₹30 पाएं \nगारंटी!!</string>
+    <string name='str_btn3tex'>नया उपयोगकर्ता \nपुरस्कार</string>
+    <string name='str_btn4tex'>पहला आमंत्रण \nपुरस्कार</string>
+
+    <string name='str_day1'>दिन 1</string>
+    <string name='str_day2'>दिन 2</string>
+    <string name='str_day3'>दिन 3</string>
+    <string name='str_day4'>दिन 4</string>
+    <string name='str_day5'>दिन 5</string>
+    <string name='str_day6'>दिन 6</string>
+    <string name='str_day7'>दिन 7</string>
+    <string name='str_todaytask'> आज का कार्य</string>
+
+    <string name='str_checkbtn'>चेक इन करें</string>
+    <string name='str_gifttex'>केवल नए उपयोगकर्ताओं के लिए उपहार पैक! \nआसानी से पाएं ₹100!! </string>
+    <string name='str_gifttex1'>उपहार पैक में सभी कार्य पूरे करें! \nउपहार पैक! </string>
+
+    <string name='str_profileH'>प्रोफ़ाइल</string>
+    <string name='str_NameProfile'>डेलेसा वान</string>
+    <string name='str_ProtodayC'>आज के सिक्के</string>
+    <string name='str_ProEarnings'>कमाई</string>
+    <string name='str_inviteFD'>मित्रों को आमंत्रित करें</string>
+    <string name='str_incomeHistory'>आय इतिहास</string>
+    <string name='str_leaderboard'>लीडरबोर्ड</string>
+    <string name='str_messages'>संदेश</string>
+    <string name='str_faqs'>अक्सर पूछे जाने वाले प्रश्न</string>
+    <string name='str_feedback'>प्रतिक्रिया</string>
+    <string name='str_setting'>सेटिंग</string>
+
+    <string name='str_week'>सप्ताह</string>
+    <string name='str_month'>महीना</string>
+    <string name='str_shareP'>साझा करें</string>
+    <string name='str_dailogtv1'>1. क्षमा मांगना! आपके पास व्यक्तिगत \n व्हाट्सएप का कोई ऐप नहीं है</string>
+    <string name='str_dailogtv2'>2. डाउनलोड करने के लिए नीचे दिए गए बटन पर क्लिक करें या \nस्वयं डाउनलोड करें</string>
+    <string name='str_continue'>जारी रखें</string>
+
+    <string name='str_income'>आय</string>
+    <string name='str_coins'>सिक्के</string>
+    <string name='str_rupees'>रुपये</string>
+    <string name='str_redeem'>रिडीम करें</string>
+    <string name='str_redeemtex'>यदि आप सिक्कों को बैलेंस में बदलना चाहते हैं, तो \nकृपया [रिडीम] पर क्लिक करें</string>
+    <string name='str_Daily_income'>दैनिक आय</string>
+    <string name='str_Check_In'>चेक इन पुरस्कार</string>
+
+    <string name='str_spin_wheel'>स्पिन व्हील</string>
+    <string name='str_btn_spin_wheel'>स्पिन व्हील (0/5)</string>
+    <string name='str_btn_slot_machine'>स्लॉट मशीन</string>
+
+    <string name='str_trending_game'>ट्रेंडिंग गेम्स</string>
+    <string name='str_gamers'>गेमर्स, शायद आपको पसंद आएं</string>
+    <string name='str_most_games'>अधिकतर खेले जाने वाले गेम</string>
+    <string name='str_adventure_games'>साहसिक खेल</string>
+    <string name='str_popular_games'>लोकप्रिय खेल</string>
+
+    <string name='str_play'>चलाएँ</string>
+    <string name='str_game1'>इसे प्लग करें</string>
+    <string name='str_game2'>मैजिक बबल फॉक्स</string>
+    <string name='str_game3'>घर को पेंट करें</string>
+    <string name='str_game4'>हैप्पी पॉपकॉर्न</string>
+    <string name='str_game5'>क्रॉसी ट्रैफ़िक</string>
+    <string name='str_game6'>जंगल बॉय</string>
+    <string name='str_game7'>डेजर्ट चैंपियन</string>
+    <string name='str_game8'>हेक्स मैच</string>
+    <string name='str_game9'>एयर हॉकी</string>
+    <string name='str_game10'>हवाई युद्ध</string>
+    <string name='str_game11'>एलियन-हंटर 2</string>
+    <string name='str_game12'>एंग्री-कैट शॉट</string>
+    <string name='str_game13'>जानवर-क्रश</string>
+    <string name='str_game14'>हत्यारा शूरवीर</string>
+    <string name='str_game15'>बार्न डैश</string>
+    <string name='str_game16'>बास्केटबॉल</string>
+    <string name='str_game17'>बिलियर्ड्स</string>
+    <string name='str_game18'>ब्लॉक पाइल</string>
+    <string name='str_game19'>ब्लॉक स्नेक</string>
+    <string name='str_game20'>नाश्ते का समय</string>
+
+    <string name='str_m_game1'>ब्रिकआउट</string>
+    <string name='str_m_game2'>बबलगम बाल...</string>
+    <string name='str_m_game3'>बर्गर समय</string>
+    <string name='str_m_game4'>कारें</string>
+    <string name='str_m_game5'>क्रेज़ी रनर</string>
+    <string name='str_m_game6'>डरावना दिन</string>
+    <string name='str_m_game7'>क्यूब डैश</string>
+    <string name='str_m_game8'>क्यूब निंजा</string>
+    <string name='str_m_game9'>साइबर स्लैशमैन</string>
+    <string name='str_m_game10'>साइबर सैनिक</string>
+    <string name='str_m_game11'>डार्क निंजा</string>
+    <string name='str_m_game12'>डैशर्स</string>
+    <string name='str_m_game13'>डेड-लैंड-ए...</string>
+    <string name='str_m_game14'>रक्षा चैंपियन</string>
+    <string name='str_m_game15'>डक हंटर</string>
+    <string name='str_m_game16'>डक शूटर</string>
+    <string name='str_m_game17'>Duosometric J...</string>
+    <string name='str_m_game18'>फायर सोल्जर</string>
+    <string name='str_m_game19'>मछली पकड़ने का उन्माद</string>
+    <string name='str_m_game20'>फ़्लैपी पिग</string>
+
+    <string name='str_ad_game1'>फ्लोर-जम्पर</string>
+    <string name='str_ad_game2'>मेंढक-सुपर बबल..</string>
+    <string name='str_ad_game3'>फल साँप</string>
+    <string name='str_ad_game4'>Fruitslasher</string>
+    <string name='str_ad_game5'>मजेदार-जानवर</string>
+    <string name='str_ad_game6'>लड़की-पोशाक ऊपर</string>
+    <string name='str_ad_game7'>पागल हो रहा है</string>
+    <string name='str_ad_game8'>सोने की खान</string>
+    <string name='str_ad_game9'>गोल्ड-माइनर जैक</string>
+    <string name='str_ad_game10'>ग्रेट-एयर बैटल</string>
+    <string name='str_ad_game11'>हैलोवीन-बबल</string>
+    <string name='str_ad_game12'>हैंडलेस</string>
+    <string name='str_ad_game13'>हैप्पी हैलोवीन</string>
+    <string name='str_ad_game14'>हेक्सा पहेली</string>
+    <string name='str_ad_game15'>जोई एडवेंचर</string>
+    <string name='str_ad_game16'>जंप जंप</string>
+    <string name='str_ad_game17'>जम्पर्स जंपर्स</string>
+    <string name='str_ad_game18'>जंगल खजाना</string>
+    <string name='str_ad_game19'>चाकू-बनाम लाश</string>
+    <string name='str_ad_game20'>पागल वैज्ञानिक</string>
+
+    <string name='str_rewards'>मेरे पुरस्कार</string>
+    <string name='str_language'>भाषा</string>
+    <string name='str_english'>अंग्रेज़ी</string>
+    <string name='str_quick'>त्वरित पढ़ें</string>
+    <string name='str_calander'>कैलेंडर अनुस्मारक</string>
+    <string name='str_pushNoti'>पुश अधिसूचना</string>
+    <string name='str_clear_cache'>कैश साफ़ करें</string>
+    <string name='str_mb'>MB</string>
+    <string name='str_check_update'>अद्यतन जांचें</string>
+    <string name='str_cloud'>क्लाउड सेवा</string>
+    <string name='str_my_account'>मेरा खाता</string>
+    <string name='str_withdr_method'>निकासी विधि</string>
+    <string name='str_withdr_amount'>निकासी राशि</string>
+    <string name='str_new_amount'>नया प्लेयर</string>
+    <string name='str_redee_dailog'>1. नकद निकासी प्रक्रिया है:
+आवेदन - जानकारी भरना -
+आवेदन समीक्षा - नकद जारी करना। कृपया
+आवेदन करने से पहले अपनी जानकारी सत्यापित करें.
+2. यदि कोई असामान्य अनुप्रयोग हो
+धोखाधड़ी पाई गई, वापसी
+आवेदन खारिज कर दिया जाएगा.
+3. प्रत्येक निकासी आवेदन होगा
+कृपया शीघ्र समीक्षा करें और पूरा करें
+धैर्य रखें।
+4. यदि आपका कोई प्रश्न हो तो कृपया
+shaojiefan72@gmail.com पर संपर्क करें
+5. इकट्ठा करने के लिए खज़ाना खोलें
+हीरे तेजी से.
+</string>
+    <string name='str_languageSelect'>भाषाएँ चुनें</string>
+    <string name='str_hindi'>हिन्दी</string>
+    <string name='str_spanish'>स्पेनिश</string>
+    <string name='str_portuguese'>पुर्तगाली</string>
+    <string name='str_Korean'>कोरियाई</string>
+    <string name='str_indonesia'>इंडोनेशिया</string>
+    <string name='str_select'>चुनें</string>
+    <string name='str_login'>अब लॉग इन करें</string>
+    <string name='str_watch'> देखें &amp; कमाएँ</string>
+    <string name='str_get'>₹100 बोनस प्राप्त करें</string>
+    <string name='str_google'>Google के साथ साइन इन करें</string>
+    <string name='str_exit_yes'>हां 5s</string>
+    <string name='str_exit_no'>नहीं</string>
+    <string name='str_exit'>क्या आप बाहर निकलना चाहते हैं?</string>
+    <string name='str_rate_us_exit'>क्या आपको हमारा ऐप पसंद है हमें रेट करें! </string>
+    <string name='str_bonus'>दैनिक बोनस</string>
+    <string name='str_today_reward'>आज का इनाम</string>
+    <string name='str_collect'>एकत्रित करें</string>
+
+    <string name='str_mybalance'>मेरा बैलेंस</string>
+    <string name='str_totalincome'>कुल आय</string>
+</resources>

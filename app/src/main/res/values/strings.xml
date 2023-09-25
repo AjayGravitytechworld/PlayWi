@@ -1,0 +1,313 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="sponser_lebel">Sponsored</string>
+    <string name="retry">Retry Again</string>
+    <string name="connect_internet">Please Connect To Internet</string>
+    <string name="ad">Ad</string>
+
+    <string name="app_name">Watch Video</string>
+    <string name="str_dev_option">You have enabled Developer option in your phone, please disable Developer option to enjoy service of our App.</string>
+    <string name="str_recheck">RECHECK</string>
+    <string name="str_turnoff">TURN OFF</string>
+    <string name="str_contain_ads">This action can contain Ads</string>
+    <string name="str_recomondet">Let me recommend you this application  </string>
+    <string name="str_choose_one">choose one</string>
+
+    <string name="str_start">Start Earn</string>
+    <string name="str_share">Share</string>
+    <string name="str_rate">Rate</string>
+    <string name="str_privecy">Privacy</string>
+    <string name="str_games">Games</string>
+
+    <string name="str_video">Video</string>
+    <string name="str_money">Earn</string>
+    <string name="str_tasks">Tasks</string>
+    <string name="str_game">Game</string>
+    <string name="str_profile">Profile</string>
+    <string name="str_q_game">Quiz Game</string>
+    <string name="str_gift_box">Gift Box</string>
+
+    <string name="str_spinWheel">Spin Wheel</string>
+    <string name="str_scratch">Scratch</string>
+    <string name="str_scratch_card">Scratch Card</string>
+    <string name="str_slot">Slot Machine</string>
+    <string name="str_quiz">Quiz Game</string>
+    <string name="str_gift">Gift Box</string>
+    <string name="str_wallet">Wallet</string>
+    <string name="str_invite">Invite Earn</string>
+    <string name="str_rateus">Rate Us</string>
+
+    <string name="str_spinbtn">Spin &amp; Earn</string>
+    <string name="str_scratchbtn">Scratch &amp; Win</string>
+    <string name="str_slotbtn">Slot &amp; Win</string>
+    <string name="str_ansbtn">Ans &amp; Win</string>
+    <string name="str_gifbtn">All Day Gift</string>
+    <string name="str_walletbtn">Your Wallet</string>
+    <string name="str_invitebtn">Invite &amp; Earn</string>
+    <string name="str_ratebtn">Rate Us</string>
+
+    <string name="str_delesa">Delesa Wan</string>
+    <string name="str_level">LEVEL 1</string>
+    <string name="str_daily_bonus">Daily Bonus</string>
+
+    <string name="str_today_task">Today’s Task</string>
+    <string name="str_notiF_check">You have 5 messages. Check it out >></string>
+
+    <string name="str_btn1tex">Registration \nRewards</string>
+    <string name="str_btn2tex">Get ₹30 \nGuaranteed!!</string>
+    <string name="str_btn3tex">New User \nRewards</string>
+    <string name="str_btn4tex">1st Invite Rewards</string>
+
+    <string name="str_day1">Day 1</string>
+    <string name="str_day2">Day 2</string>
+    <string name="str_day3">Day 3</string>
+    <string name="str_day4">Day 4</string>
+    <string name="str_day5">Day 5</string>
+    <string name="str_day6">Day 6</string>
+    <string name="str_day7">Day 7</string>
+    <string name="str_todaytask"> Today’s Task</string>
+
+    <string name="str_checkbtn">Check In</string>
+    <string name="str_gifttex">Gift Pack for New Users Only! \nGet ₹100 easily!! </string>
+    <string name="str_gifttex1">Complete all tasks in the gift pack ! \nthe gift pack ! </string>
+
+    <string name="str_profileH">Profile</string>
+    <string name="str_NameProfile">Delesa Wan</string>
+    <string name="str_ProtodayC">Today Coins</string>
+    <string name="str_ProEarnings">Earnings</string>
+    <string name="str_inviteFD">Invite Friends</string>
+    <string name="str_incomeHistory">Income History</string>
+    <string name="str_leaderboard">Leaderboard</string>
+    <string name="str_messages">Messages</string>
+    <string name="str_faqs">FAQs</string>
+    <string name="str_feedback">Feedback</string>
+    <string name="str_setting">Setting</string>
+
+    <string name="str_week">Week</string>
+    <string name="str_month">Month</string>
+    <string name="str_shareP">Share</string>
+    <string name="str_dailogtv1">1. Sorry! you have no app of personal \n     Whatsapp</string>
+    <string name="str_dailogtv2">2. Click the button below to download or \n     download yourself</string>
+    <string name="str_continue">Continue</string>
+
+    <string name="str_income">Income</string>
+    <string name="str_coins">Coins</string>
+    <string name="str_rupees">Rupees</string>
+    <string name="str_redeem">Redeem</string>
+    <string name="str_redeemtex">If you want to convert coins to balance, \nplease click [ Redeem ]</string>
+    <string name="str_Daily_income">Daily Income</string>
+    <string name="str_Check_In">Check In Reward</string>
+
+    <string name="str_spin_wheel">Spin Wheel</string>
+    <string name="str_btn_spin_wheel">Spin Wheel (0/5)</string>
+    <string name="str_btn_slot_machine">Slot Machine</string>
+
+    <string name="str_trending_game">Popular Games</string>
+    <string name="str_gamers">Gamers, You Might Like</string>
+    <string name="str_most_games">Mostly Played Games</string>
+    <string name="str_adventure_games">Adventure Game</string>
+    <string name="str_popular_games">Popular Games</string>
+
+    <string name="str_play">Play</string>
+    <string name="str_game1">Plug It</string>
+    <string name="str_game2">Magic Bubble Fox</string>
+    <string name="str_game3">Paint The House</string>
+    <string name="str_game4">Happy Popcorn</string>
+    <string name="str_game5">Crossy Traffic</string>
+    <string name="str_game6">Jungle Boy</string>
+    <string name="str_game7">Desert Champion</string>
+    <string name="str_game8">Hex Match</string>
+    <string name="str_game9">Air Hockey</string>
+    <string name="str_game10">Air Warfare</string>
+    <string name="str_game11">Alien-Hunter 2</string>
+    <string name="str_game12">Angry-Cat Shot</string>
+    <string name="str_game13">Animals-Crush</string>
+    <string name="str_game14">Assassin Knight</string>
+    <string name="str_game15">Barn Dash</string>
+    <string name="str_game16">Basketball</string>
+    <string name="str_game17">Billiards</string>
+    <string name="str_game18">Block Pile</string>
+    <string name="str_game19">Block Snake</string>
+    <string name="str_game20">Breakfast Time</string>
+
+
+    <string name="str_m_game1">Brickout</string>
+    <string name="str_m_game2">Bubblegum Bal...</string>
+    <string name="str_m_game3">Burger Time</string>
+    <string name="str_m_game4">Cars</string>
+    <string name="str_m_game5">Crazy Runner</string>
+    <string name="str_m_game6">Creepy Day</string>
+    <string name="str_m_game7">Cube Dash</string>
+    <string name="str_m_game8">Cube Ninja</string>
+    <string name="str_m_game9">Cyber Slashman</string>
+    <string name="str_m_game10">Cyber Soldier</string>
+    <string name="str_m_game11">Dark Ninja</string>
+    <string name="str_m_game12">Dashers</string>
+    <string name="str_m_game13">Dead-Land-A...</string>
+    <string name="str_m_game14">Defence Champ</string>
+    <string name="str_m_game15">Duck Hunter</string>
+    <string name="str_m_game16">Duck Shooter</string>
+    <string name="str_m_game17">Duosometric J...</string>
+    <string name="str_m_game18">Fire Soldier</string>
+    <string name="str_m_game19">Fishing Frenzy</string>
+    <string name="str_m_game20">Flappy Pig</string>
+
+    <string name="str_ad_game1">Floor-Jumper</string>
+    <string name="str_ad_game2">Frog-Super Bubbl..</string>
+    <string name="str_ad_game3">Fruit Snake</string>
+    <string name="str_ad_game4">Fruitslasher</string>
+    <string name="str_ad_game5">Funny-Animals</string>
+    <string name="str_ad_game6">Girl-Dress Up</string>
+    <string name="str_ad_game7">Going Nuts</string>
+    <string name="str_ad_game8">Gold Miner</string>
+    <string name="str_ad_game9">Gold-Miner Jack</string>
+    <string name="str_ad_game10">Great-Air Battles</string>
+    <string name="str_ad_game11">Halloween-Bubble</string>
+    <string name="str_ad_game12">Handless</string>
+    <string name="str_ad_game13">Happy Halloween</string>
+    <string name="str_ad_game14">Hexa Puzzle</string>
+    <string name="str_ad_game15">Joee Adventure</string>
+    <string name="str_ad_game16">Jump Jump</string>
+    <string name="str_ad_game17">Jumpers Jumpers</string>
+    <string name="str_ad_game18">Jungle Treasure</string>
+    <string name="str_ad_game19">Knife-Vs Zombies</string>
+    <string name="str_ad_game20">Mad Scientist</string>
+
+    <string name="str_rewards">My Rewards</string>
+    <string name="str_language">Language</string>
+    <string name="str_english">English</string>
+    <string name="str_quick">Quick Read</string>
+    <string name="str_calander">Calender Reminder</string>
+    <string name="str_pushNoti">Push Notification</string>
+    <string name="str_clear_cache">Clear Cache</string>
+    <string name="str_mb">MB</string>
+    <string name="str_check_update">Check Update</string>
+    <string name="str_cloud">Cloud Service</string>
+    <string name="str_my_account">My Account</string>
+    <string name="str_withdr_method">Withdrawal Method</string>
+    <string name="str_withdr_amount">Withdrawal Amount</string>
+    <string name="str_new_amount">New Player</string>
+    <string name="str_redee_dailog">1. The cash withdrawal process is:
+application - filling in information -
+application review - issuing cash. Please
+verify your information before applying.
+2. If any abnormal application of
+cheating is found, the withdrawal
+application will be rejected.
+3. Each withdrawal application will be
+quickly reviewed and completed, please
+be patient.
+4. If you have any questions, please
+contact shaojiefan72@gmail.com
+5. Open treasure chests to collect
+diamonds faster.
+</string>
+    <string name="str_languageSelect">Select Languages</string>
+    <string name="str_hindi">Hindi</string>
+    <string name="str_spanish">Spanish</string>
+    <string name="str_portuguese">Portuguese</string>
+    <string name="str_Korean">Korean</string>
+    <string name="str_indonesia">Indonesia</string>
+    <string name="str_select">Select</string>
+    <string name="str_login">Now Login</string>
+    <string name="str_watch"> Watch &amp; Earn</string>
+    <string name="str_get">Get ₹ 100 Bonus</string>
+    <string name="str_google">Sign in with Google</string>
+    <string name="str_exit_yes">Yes   5s</string>
+    <string name="str_exit_no">No</string>
+    <string name="str_exit">Do you want to Exit?</string>
+    <string name="str_rate_us_exit">Do you Like our app Rate Us! </string>
+    <string name="str_bonus">Daily Bonus</string>
+    <string name="str_today_reward">Today’s Reward</string>
+    <string name="str_collect">Collect</string>
+
+    <string name="str_mybalance">My Balance</string>
+    <string name="str_totalincome">Total Income</string>
+
+
+        <string name="text_no_login" tools:ignore="MissingTranslation">Sign in fail</string>
+    <string name="str_login_as_guest" tools:ignore="MissingTranslation">Login As Guest</string>
+    <string name="str_welcome_bonus" tools:ignore="MissingTranslation">Welcome Bonus</string>
+    <string name="str_login_bonus" tools:ignore="MissingTranslation">Login Bonus</string>
+    <string name="str_trending_videos" tools:ignore="MissingTranslation">Trending Videos</string>
+    <string name="str_popular_videos" tools:ignore="MissingTranslation">Popular Videos</string>
+    <string name="str_watch_videos" tools:ignore="MissingTranslation">Watch Videos</string>
+    <string name="str_already1" tools:ignore="MissingTranslation">You Already Get Daily Bonus</string>
+    <string name="str_scretch_coin" tools:ignore="MissingTranslation">Scretch Coin</string>
+    <string name="str_spin_win_coin" tools:ignore="MissingTranslation">Spin Win Coin</string>
+    <string name="str_giftbox_win_coin" tools:ignore="MissingTranslation">Gift Box Win Coin</string>
+
+
+    <string name="new_game_btn" tools:ignore="MissingTranslation">new game</string>
+    <string name="game_name" tools:ignore="MissingTranslation">BIG 5 SAFARI SLOTS</string>
+    <string name="add_money_text" tools:ignore="MissingTranslation">Add money to play</string>
+    <string name="nudge" tools:ignore="MissingTranslation">NUDGE</string>
+    <string name="hold" tools:ignore="MissingTranslation">HOLD</string>
+    <string name="firstSymbol" tools:ignore="MissingTranslation">first fruit machine symbol</string>
+    <string name="secondSymbol" tools:ignore="MissingTranslation">second fruit machine symbol</string>
+    <string name="white_background" tools:ignore="MissingTranslation">white background</string>
+    <string name="symbolThree" tools:ignore="MissingTranslation">third symbol image</string>
+    <string name="slot_machine" tools:ignore="MissingTranslation">slot machine</string>
+    <string name="spin_button" tools:ignore="MissingTranslation">spin button</string>
+    <string name="poundSign" tools:ignore="MissingTranslation">£</string>
+    <string name="collect_button" tools:ignore="MissingTranslation">collect button</string>
+    <string name="you_collected" tools:ignore="MissingTranslation">You collected:</string>
+    <string name="play_again" tools:ignore="MissingTranslation">Play Again</string>
+    <string name="game_over" tools:ignore="MissingTranslation">game over</string>
+    <string name="outOfMoney" tools:ignore="MissingTranslation">Sorry  Out of Money</string>
+    <string name="add_more_money" tools:ignore="MissingTranslation">Add More Money</string>
+    <string name="quit" tools:ignore="MissingTranslation">Quit</string>
+    <string name="winner" tools:ignore="MissingTranslation">winner</string>
+    <string name="togglebutton" tools:ignore="MissingTranslation">ToggleButton</string>
+    <string name="add_money" tools:ignore="MissingTranslation">add money</string>
+    <string name="top_symbol1" tools:ignore="MissingTranslation">top symbol wheel 1</string>
+    <string name="bottom_symbol_wheel_1" tools:ignore="MissingTranslation">bottom symbol wheel 1</string>
+    <string name="top_symbol_wheel_2" tools:ignore="MissingTranslation">top symbol wheel 2</string>
+    <string name="bottom_symbol_wheel_2" tools:ignore="MissingTranslation">bottom symbol wheel 2</string>
+    <string name="top_symbol_wheel_3" tools:ignore="MissingTranslation">top symbol wheel 3</string>
+    <string name="bottom_symbol_wheel_3" tools:ignore="MissingTranslation">bottom symbol wheel 3</string>
+    <string name="animation_image_view_wheel_1" tools:ignore="MissingTranslation">animation image view wheel 1</string>
+    <string name="animation_image_view_wheel_2" tools:ignore="MissingTranslation">animation image view wheel 2</string>
+    <string name="animation_image_view_wheel_3" tools:ignore="MissingTranslation">animation image view wheel 3</string>
+    <string name="fivepounds" tools:ignore="MissingTranslation">£5</string>
+    <string name="tenpounds" tools:ignore="MissingTranslation">£10</string>
+    <string name="twentypounds" tools:ignore="MissingTranslation">£20</string>
+    <string name="fiftypounds" tools:ignore="MissingTranslation">£50</string>
+    <string name="find_result" tools:ignore="MissingTranslation">find result</string>
+    <string name="mini_game" tools:ignore="MissingTranslation">Mini Game</string>
+    <string name="minigame_rules" tools:ignore="MissingTranslation">Pick a tree!\nBONUS 10 SPINS if you catch the poacher!</string>
+    <string name="word_continue" tools:ignore="MissingTranslation">Continue</string>
+    <string name="tree" tools:ignore="MissingTranslation">tree</string>
+
+    <string name="lucky_monkey_title" tools:ignore="MissingTranslation">Wheel of Fortune</string>
+    <string name="lucky_monkey_times_left" tools:ignore="MissingTranslation">times left</string>
+    <string name="lucky_monkey_fortune_list" tools:ignore="MissingTranslation">Check out your fortune list</string>
+
+    <string name="str_sound" tools:ignore="MissingTranslation">Game Sound</string>
+    <string name="str_withdrawall" tools:ignore="MissingTranslation">Withdraw</string>
+    <string name="str_scretch_card_text" tools:ignore="MissingTranslation">Scratch Card to take Coins</string>
+    <string name="str_scretch_card_text2" tools:ignore="MissingTranslation">Your Daily Scratch Card Limit Is Over</string>
+
+    <string name="str_spinnew_text" tools:ignore="MissingTranslation">Spin Wheel to take Coins</string>
+    <string name="str_spinnew_text1" tools:ignore="MissingTranslation">Your Daily Spin Wheel Limit Is Over</string>
+
+    <string name="str_spinnew1_text" tools:ignore="MissingTranslation">Click On Go to take Coins</string>
+    <string name="str_spinnew1_text1" tools:ignore="MissingTranslation">Your Daily Spin Wheel Limit Is Over</string>
+    <string name="str_fortune" tools:ignore="MissingTranslation">Coin Wallet</string>
+
+    <string name="text_no_title" tools:ignore="MissingTranslation">Please Enter Title</string>
+    <string name="text_no_desc" tools:ignore="MissingTranslation">Please Enter Description</string>
+    <string name="text_rise_ticket" tools:ignore="MissingTranslation">Your Feedback Submitted Successfully.</string>
+    <string name="text_playy" tools:ignore="MissingTranslation">PLAY</string>
+    <string name="text_gamee123" tools:ignore="MissingTranslation">Your Daily Gift Limit is Over</string>
+    <string name="str_notificationn" tools:ignore="MissingTranslation">Notification</string>
+    <string name="str_daily_check_in" tools:ignore="MissingTranslation">Daily Check In</string>
+    <string name="str_slot_machin" tools:ignore="MissingTranslation">Click on Spin Button to Play Game</string>
+    <string name="str_slot_machin1" tools:ignore="MissingTranslation">Your Daily Slot Limit is Over</string>
+    <string name="str_slot_machin111" tools:ignore="MissingTranslation">Slot Count</string>
+    <string name="strwithdrawww1" tools:ignore="MissingTranslation">Withdraw Coin</string>
+    <string name="strwithdrawww123" tools:ignore="MissingTranslation">Your Withdrawal request is in queue.</string>
+
+    <string name="str_visit_earn" tools:ignore="MissingTranslation">Visit Earn</string>
+    <string name="str_visit_earn1" tools:ignore="MissingTranslation">Visit &amp; Earn</string>
+</resources>

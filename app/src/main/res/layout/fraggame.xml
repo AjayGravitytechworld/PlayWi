@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbg"
+    tools:context="com.abc.demo.fragment.GameFrag">
+
+    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_56dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/btn_back"
+            android:layout_width="@dimen/_35dp"
+            android:layout_height="@dimen/_35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_10dp"
+            android:src="@drawable/image_back"
+            android:visibility="gone" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/str_q_game"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18dp"
+            android:textStyle="bold" />
+    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header">
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:id="@+id/gamers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15dp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10dp"
+                    android:text="@string/str_gamers"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15dp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_30dp"
+                    android:layout_height="@dimen/_30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_10dp"
+                    android:src="@drawable/btnnext" />
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_130dp"
+                android:layout_marginHorizontal="@dimen/_7dp"
+                android:layout_marginTop="@dimen/_8dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/Most_game1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/mgame1" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="@string/str_m_game1"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/m_gamebtn">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/Most_game2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/mgame2" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="@string/str_m_game2"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/m_gamebtn">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/Most_game3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/mgame3" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:text="@string/str_m_game3"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/m_gamebtn">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/Most_game4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/mgame4" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:text="@string/str_m_game4"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/m_gamebtn">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:lines="1"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+            </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_130dp"
+                android:layout_marginHorizontal="@dimen/_7dp"
+                android:layout_marginTop="@dimen/_8dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/Most_game5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/mgame5" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:text="@string/str_m_game5"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/m_gamebtn">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:lines="1"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/Most_game6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/mgame6" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:text="@string/str_m_game6"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/m_gamebtn">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:lines="1"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/Most_game7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/mgame7" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:text="@string/str_m_game7"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/m_gamebtn">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:lines="1"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/Most_game8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/mgame8" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:text="@string/str_m_game8"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/m_gamebtn">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+            </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:id="@+id/nativeAd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5dp"
+                android:orientation="vertical" />
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:id="@+id/trending_game"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10dp"
+                    android:text="@string/str_trending_game"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15dp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_30dp"
+                    android:layout_height="@dimen/_30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_10dp"
+                    android:src="@drawable/btnnext" />
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/trending_game"
+                android:layout_marginTop="@dimen/_8dp"
+                android:orientation="vertical">
+
+                <HorizontalScrollView
+                    android:id="@+id/H_Scroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/coin_add"
+                    android:layout_marginHorizontal="@dimen/_8dp"
+                    android:scrollbars="none">
+
+                    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                        android:id="@+id/layoutDaily"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/trending_game1"
+                            android:layout_width="@dimen/_250dp"
+                            android:layout_height="@dimen/_115dp"
+                            android:src="@drawable/trending1" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/trending_game2"
+                            android:layout_width="@dimen/_250dp"
+                            android:layout_height="@dimen/_115dp"
+                            android:src="@drawable/tr_game5" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/trending_game3"
+                            android:layout_width="@dimen/_250dp"
+                            android:layout_height="@dimen/_115dp"
+                            android:src="@drawable/tr_game8" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/trending_game4"
+                            android:layout_width="@dimen/_250dp"
+                            android:layout_height="@dimen/_115dp"
+                            android:src="@drawable/tr_game11" />
+                    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+                </HorizontalScrollView>
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:id="@+id/most_games"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15dp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10dp"
+                    android:maxLines="1"
+                    android:text="@string/str_most_games"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15dp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_30dp"
+                    android:layout_height="@dimen/_30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_10dp"
+                    android:src="@drawable/btnnext" />
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_130dp"
+                android:layout_marginHorizontal="@dimen/_7dp"
+                android:layout_marginTop="@dimen/_8dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/game1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/game1" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:text="@string/str_game1"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/btncontinuebg">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:lines="1"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/game2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/game2" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:text="@string/str_game2"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/btncontinuebg">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:lines="1"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/game3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/game3" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:text="@string/str_game3"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/btncontinuebg">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/game4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/game4" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="@string/str_game4"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/btncontinuebg">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+            </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:id="@+id/game5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_130dp"
+                android:layout_marginHorizontal="@dimen/_7dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/game5" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="@string/str_game5"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/btncontinuebg">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/game6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/game6" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:text="@string/str_game6"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/btncontinuebg">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/game7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/game7" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:text="@string/str_game7"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/btncontinuebg">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/game8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/game8" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:text="@string/str_game8"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/btncontinuebg">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+            </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:id="@+id/adventur_game"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15dp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10dp"
+                    android:lines="1"
+                    android:text="@string/str_adventure_games"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15dp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_30dp"
+                    android:layout_height="@dimen/_30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_10dp"
+                    android:src="@drawable/btnnext" />
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_130dp"
+                android:layout_marginHorizontal="@dimen/_7dp"
+                android:layout_marginTop="@dimen/_8dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/ad_game1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/aaaaa" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:text="@string/str_ad_game1"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/adventur_btnbg">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:lines="1"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/ad_game2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/xcvd4" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:text="@string/str_ad_game2"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/adventur_btnbg">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:lines="1"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/ad_game3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/vd" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:text="@string/str_ad_game3"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/adventur_btnbg">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:lines="1"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/ad_game4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/aaa" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:text="@string/str_ad_game4"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/adventur_btnbg">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:lines="1"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+            </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_130dp"
+                android:layout_marginHorizontal="@dimen/_7dp"
+                android:layout_marginTop="@dimen/_8dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/ad_game5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/ascf5" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:text="@string/str_ad_game5"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/adventur_btnbg">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:lines="1"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/ad_game6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/cf47" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:text="@string/str_ad_game6"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/adventur_btnbg">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:lines="1"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/ad_game7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/vd54" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:text="@string/str_ad_game7"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/adventur_btnbg">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:lines="1"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/ad_game8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m_gamebg"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_56dp"
+                        android:layout_height="@dimen/_54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_7dp"
+                        android:src="@drawable/sc7" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2dp"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:text="@string/str_ad_game8"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11dp" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4dp"
+                        android:background="@drawable/adventur_btnbg">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:lines="1"
+                            android:text="@string/str_play"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+            </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:id="@+id/nativeAd3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5dp"
+                android:orientation="vertical" />
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:id="@+id/popular_game"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15dp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10dp"
+                    android:lines="1"
+                    android:text="@string/str_popular_games"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15dp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_30dp"
+                    android:layout_height="@dimen/_30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_10dp"
+                    android:src="@drawable/btnnext" />
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/trending_game"
+                android:layout_marginTop="@dimen/_8dp"
+                android:orientation="vertical">
+
+                <HorizontalScrollView
+                    android:id="@+id/H_Scroll1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/coin_add"
+                    android:layout_marginHorizontal="@dimen/_8dp"
+                    android:scrollbars="none">
+
+                    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                        android:id="@+id/layoutPopular"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/popular_game1"
+                            android:layout_width="@dimen/_250dp"
+                            android:layout_height="@dimen/_115dp"
+                            android:src="@drawable/popular_game1" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/popular_game2"
+                            android:layout_width="@dimen/_250dp"
+                            android:layout_height="@dimen/_115dp"
+                            android:src="@drawable/popular_game2" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/popular_game3"
+                            android:layout_width="@dimen/_250dp"
+                            android:layout_height="@dimen/_115dp"
+                            android:src="@drawable/po_game5" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/popular_game4"
+                            android:layout_width="@dimen/_250dp"
+                            android:layout_height="@dimen/_115dp"
+                            android:src="@drawable/po_game6" />
+                    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+                </HorizontalScrollView>
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+    </ScrollView>
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>

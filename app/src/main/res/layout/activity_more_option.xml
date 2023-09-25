@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbg"
+    tools:context=".ui.aaMoreOptionActivity">
+
+    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+        android:id="@+id/layoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_56dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+            android:id="@+id/btnBack"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_10dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="@dimen/_25dp"
+                android:layout_height="@dimen/_25dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/backarrow"
+                tools:ignore="ContentDescription" />
+        </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/lblContactUs"
+            style="@style/Text_Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name" />
+    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/nativeAd1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutHeader">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_12dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/slot_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_140dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_8dp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/slotbg"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tex_slot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_14sdp"
+                        android:layout_marginTop="@dimen/_8dp"
+                        android:text="@string/str_slot"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_18dp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_85dp"
+                        android:layout_height="@dimen/_32dp"
+                        android:layout_marginStart="@dimen/_14sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/btnbg7">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:text="@string/str_slotbtn"
+                            android:textColor="#EA2F2F"
+                            android:textSize="@dimen/_14sdp" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quiz_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_140dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_8dp"
+                    android:layout_marginTop="10sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/quizbg"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tex_quiz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_14sdp"
+                        android:layout_marginTop="@dimen/_8dp"
+                        android:text="@string/str_quiz"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_18dp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_85dp"
+                        android:layout_height="@dimen/_32dp"
+                        android:layout_marginStart="@dimen/_14sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/btnbg3">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:text="@string/str_ansbtn"
+                            android:textColor="#E43686"
+                            android:textSize="@dimen/_14sdp" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </LinearLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/nativeAd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5dp"
+                    android:orientation="vertical" />
+
+
+                <LinearLayout
+                    android:id="@+id/gift_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_140dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_8dp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/giftbg"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tex_gift"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_14sdp"
+                        android:layout_marginTop="@dimen/_8dp"
+                        android:text="@string/str_gift"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_18dp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_90dp"
+                        android:layout_height="@dimen/_32dp"
+                        android:layout_below="@+id/tex_gift"
+                        android:layout_marginStart="@dimen/_14sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/btnbg5">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:text="@string/str_gifbtn"
+                            android:textColor="#0A9E60"
+                            android:textSize="@dimen/_14sdp" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/walletBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_140dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_8dp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/walletbtnbg"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tex_wallet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_14sdp"
+                        android:layout_marginTop="@dimen/_8dp"
+                        android:text="@string/str_fortune"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_18dp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_80dp"
+                        android:layout_height="@dimen/_30dp"
+                        android:layout_marginStart="@dimen/_14sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/btnbg6">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:text="@string/str_walletbtn"
+                            android:textColor="#C9A403"
+                            android:textSize="@dimen/_14sdp" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/invite_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_140dp"
+                    android:layout_marginHorizontal="@dimen/_8dp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/invitebtnbg"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tex_invite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_14sdp"
+                        android:layout_marginTop="@dimen/_8dp"
+                        android:text="@string/str_invite"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_18dp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_85dp"
+                        android:layout_height="@dimen/_32dp"
+                        android:layout_marginStart="@dimen/_14sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/btnbg1">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:text="@string/str_invitebtn"
+                            android:textColor="#0A9E60"
+                            android:textSize="@dimen/_14sdp" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rate_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_140dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_8dp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ratebtnbg1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tex_rate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_14sdp"
+                        android:layout_marginTop="@dimen/_8dp"
+                        android:text="@string/str_rateus"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_18dp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="@dimen/_85dp"
+                        android:layout_height="@dimen/_32dp"
+                        android:layout_marginStart="@dimen/_14sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/btnbg9">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:text="@string/str_ratebtn"
+                            android:textColor="#007699"
+                            android:textSize="@dimen/_14sdp" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:id="@+id/nativeAd1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

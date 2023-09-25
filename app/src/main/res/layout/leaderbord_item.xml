@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_40dp"
+    android:background="#350175"
+    android:orientation="vertical">
+
+    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/rankNo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.8"
+            android:text="#1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/userName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.1"
+            android:gravity="center"
+            android:text="Devid B"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14dp" />
+
+        <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+            android:id="@+id/income"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.1">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/view1"
+                android:layout_width="@dimen/_15dp"
+                android:layout_height="@dimen/_15dp"
+                android:layout_below="@+id/rank_hd"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_28dp"
+                android:src="@drawable/coin" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/lblCoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5dp"
+                android:layout_toEndOf="@id/view1"
+                android:gravity="center"
+                android:text="2,50,000"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14dp" />
+        </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+</com.google.android.material.circularreveal.CircularRevealLinearLayout>

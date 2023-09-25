@@ -1,0 +1,219 @@
+<resources>
+    <string name="app_name">동영상 보기</string>
+    <string name="str_dev_option">휴대전화에서 개발자 옵션을 활성화하셨습니다. 저희 앱 서비스를 즐기시려면 개발자 옵션을 비활성화하세요.</string>
+    <string name="str_recheck">재확인</string>
+    <string name="str_turnoff">끄기</string>
+    <string name="str_contain_ads">이 작업에는 광고가 포함될 수 있습니다</string>
+    <string name="str_recomondet">이 애플리케이션을 추천해 드리겠습니다 </string>
+    <string name="str_choose_one">하나를 선택하세요</string>
+
+    <string name="str_start">적립 시작</string>
+    <string name="str_share">공유</string>
+    <string name="str_rate">비율</string>
+    <string name="str_privecy">개인 정보</string>
+    <string name="str_games">게임</string>
+
+    <string name="str_video">동영상</string>
+    <string name="str_money">돈</string>
+    <string name="str_tasks">작업</string>
+    <string name="str_game">게임</string>
+    <string name="str_profile">프로필</string>
+    <string name="str_q_game">퀴즈 게임</string>
+    <string name="str_gift_box">선물 상자</string>
+
+    <string name="str_spinWheel">바퀴 돌리기</string>
+    <string name="str_scratch">스크래치</string>
+    <string name="str_scratch_card">스크래치 카드</string>
+    <string name="str_slot">슬롯 머신</string>
+    <string name="str_quiz">퀴즈 게임</string>
+    <string name="str_gift">선물 상자</string>
+    <string name="str_wallet">지갑</string>
+    <string name="str_invite">초대 적립</string>
+    <string name="str_rateus">평가 U</string>
+
+    <string name="str_spinbtn">회전 &amp; 적립</string>
+    <string name="str_scratchbtn">스크래치 &amp; 승리</string>
+    <string name="str_slotbtn">슬롯 &amp; 승리</string>
+    <string name="str_ansbtn">답변 &amp; 승리</string>
+    <string name="str_gifbtn">종일 선물</string>
+    <string name="str_walletbtn">지갑</string>
+    <string name="str_invitebtn">초대 &amp; 적립</string>
+    <string name="str_ratebtn">평가하기</string>
+
+    <string name="str_delesa">델레사 완</string>
+    <string name="str_level">레벨 1</string>
+    <string name="str_daily_bonus">일일 보너스</string>
+
+    <string name="str_today_task">오늘의 작업</string>
+    <string name="str_notiF_check">5개의 메시지가 있습니다. 확인해보세요 >></string>
+
+    <string name="str_btn1tex">등록 \n보상</string>
+    <string name="str_btn2tex">$30 \n보장!!</string>
+    <string name="str_btn3tex">신규 사용자 \n보상</string>
+    <string name="str_btn4tex">첫 번째 초대 \n보상</string>
+
+    <string name="str_day1">1일차</string>
+    <string name="str_day2">2일차</string>
+    <string name="str_day3">3일차</string>
+    <string name="str_day4">4일차</string>
+    <string name="str_day5">5일차</string>
+    <string name="str_day6">6일차</string>
+    <string name="str_day7">7일차</string>
+    <string name="str_todaytask"> 오늘의 작업</string>
+
+    <string name="str_checkbtn">체크인</string>
+    <string name="str_gifttex">신규 사용자만을 위한 선물 팩! \n쉽게 ₹100 받기!! </string>
+    <string name="str_gifttex1">선물 팩의 모든 작업을 완료하세요! \n선물 팩! </string>
+
+    <string name="str_profileH">프로필</string>
+    <string name="str_NameProfile">델레사 완</string>
+    <string name="str_ProtodayC">오늘의 코인</string>
+    <string name="str_ProEarnings">수입</string>
+    <string name="str_inviteFD">친구 초대</string>
+    <string name="str_incomeHistory">수입 내역</string>
+    <string name="str_leaderboard">리더보드</string>
+    <string name="str_messages">메시지</string>
+    <string name="str_faqs">FAQ</string>
+    <string name="str_feedback">피드백</string>
+    <string name="str_setting">설정</string>
+
+    <string name="str_week">주</string>
+    <string name="str_month">월</string>
+    <string name="str_shareP">공유</string>
+    <string name="str_dailogtv1">1. 죄송합니다! 개인용 \n Whatsapp</string> 앱이 없습니다.
+    <string name="str_dailogtv2">2. 아래 버튼을 클릭하여 다운로드하거나 \n 직접 다운로드</string>
+    <string name="str_continue">계속</string>
+
+    <string name="str_income">수입</string>
+    <string name="str_coins">동전</string>
+    <string name="str_rupees">루피</string>
+    <string name="str_redeem">교환</string>
+    <string name="str_redeemtex">코인을 잔액으로 전환하려면 \n[ 교환 ]을 클릭하세요.</string>
+    <string name="str_Daily_income">일일 수입</string>
+    <string name="str_Check_In">체크인 보상</string>
+
+    <string name="str_spin_wheel">스핀 휠</string>
+    <string name="str_btn_spin_wheel">스핀 휠(0/5)</string>
+    <string name="str_btn_slot_machine">슬롯 머신</string>
+
+    <string name="str_trending_game">트렌드 게임</string>
+    <string name="str_gamers">게이머 여러분, 좋아하실 수도 있습니다</string>
+    <string name="str_most_games">가장 많이 하는 게임</string>
+    <string name="str_adventure_games">어드벤처 게임</string>
+    <string name="str_popular_games">인기 있는 게임</string>
+
+    <string name="str_play">재생</string>
+    <string name="str_game1">연결</string>
+    <string name="str_game2">마법의 거품 여우</string>
+    <string name="str_game3">페인트 더 하우스</string>
+    <string name="str_game4">행복한 팝콘</string>
+    <string name="str_game5">교차 교통</string>
+    <string name="str_game6">정글 보이</string>
+    <string name="str_game7">사막 챔피언</string>
+    <string name="str_game8">헥스 매치</string>
+    <string name="str_game9">에어 하키</string>
+    <string name="str_game10">공중전</string>
+    <string name="str_game11">외계인 사냥꾼 2</string>
+    <string name="str_game12">Angry-Cat Shot</string>
+    <string name="str_game13">Animals-Crush</string>
+    <string name="str_game14">암살자 기사</string>
+    <string name="str_game15">반 대쉬</string>
+    <string name="str_game16">농구</string>
+    <string name="str_game17">당구</string>
+    <string name="str_game18">블록 더미</string>
+    <string name="str_game19">블록 스네이크</string>
+    <string name="str_game20">아침 식사 시간</string>
+
+    <string name="str_m_game1">브릭아웃</string>
+    <string name="str_m_game2">풍선껌 발...</string>
+    <string name="str_m_game3">버거 타임</string>
+    <string name="str_m_game4">자동차</string>
+    <string name="str_m_game5">크레이지 러너</string>
+    <string name="str_m_game6">오싹한 날</string>
+    <string name="str_m_game7">큐브 대쉬</string>
+    <string name="str_m_game8">큐브 닌자</string>
+    <string name="str_m_game9">사이버 슬래시맨</string>
+    <string name="str_m_game10">사이버 솔저</string>
+    <string name="str_m_game11">다크 닌자</string>
+    <string name="str_m_game12">대셔</string>
+    <string name="str_m_game13">죽은 땅...</string>
+    <string name="str_m_game14">방어 챔피언</string>
+    <string name="str_m_game15">오리 사냥꾼</string>
+    <string name="str_m_game16">덕 슈터</string>
+    <string name="str_m_game17">듀오메트릭 J...</string>
+    <string name="str_m_game18">소방병</string>
+    <string name="str_m_game19">낚시 광란</string>
+    <string name="str_m_game20">플래피 피그</string>
+
+    <string name="str_ad_game1">플로어 점퍼</string>
+    <string name="str_ad_game2">개구리-슈퍼버블..</string>
+    <string name="str_ad_game3">과일 뱀</string>
+    <string name="str_ad_game4">Fruitslasher</string>
+    <string name="str_ad_game5">웃긴 동물</string>
+    <string name="str_ad_game6">소녀 옷 입히기</string>
+    <string name="str_ad_game7">미쳐가는 중</string>
+    <string name="str_ad_game8">골드 마이너</string>
+    <string name="str_ad_game9">골드 마이너 잭</string>
+    <string name="str_ad_game10">대공전</string>
+    <string name="str_ad_game11">할로윈 버블</string>
+    <string name="str_ad_game12">핸들리스</string>
+    <string name="str_ad_game13">해피 할로윈</string>
+    <string name="str_ad_game14">헥사 퍼즐</string>
+    <string name="str_ad_game15">조이 어드벤처</string>
+    <string name="str_ad_game16">점프 점프</string>
+    <string name="str_ad_game17">점퍼 점퍼</string>
+    <string name="str_ad_game18">정글 보물</string>
+    <string name="str_ad_game19">나이프 대 좀비</string>
+    <string name="str_ad_game20">미친 과학자</string>
+
+    <string name="str_rewards">나의 보상</string>
+    <string name="str_language">언어</string>
+    <string name="str_english">영어</string>
+    <string name="str_quick">빠른 읽기</string>
+    <string name="str_calander">캘린더 알림</string>
+    <string name="str_pushNoti">푸시 알림</string>
+    <string name="str_clear_cache">캐시 지우기</string>
+    <string name="str_mb">MB</string>
+    <string name="str_check_update">업데이트 확인</string>
+    <string name="str_cloud">클라우드 서비스</string>
+    <string name="str_my_account">내 계정</string>
+    <string name="str_withdr_method">출금 방법</string>
+    <string name="str_withdr_amount">출금 금액</string>
+    <string name="str_new_amount">새 플레이어</string>
+    <string name="str_redee_dailog">1. 현금 인출 절차는 다음과 같습니다.
+신청서 - 정보 작성 -
+신청서 검토 - 현금 발행. 제발
+신청하기 전에 정보를 확인하십시오.
+2. 비정상적으로 적용되는 경우
+부정행위 적발, 탈퇴
+신청이 거부됩니다.
+3. 각 출금 신청은
+빠른 검토 및 완료 부탁드립니다.
+인내심을 가지십시오.
+4. 질문이 있으시면
+shaojiefan72@gmail.com으로 연락주세요.
+5. 보물 상자를 열어 수집
+다이아몬드가 더 빠릅니다.
+</string>
+    <string name="str_languageSelect">언어 선택</string>
+    <string name="str_hindi">힌디어</string>
+    <string name="str_spanish">스페인어</string>
+    <string name="str_portuguese">포르투갈어</string>
+    <string name="str_Korean">한국어</string>
+    <string name="str_indonesia">인도네시아</string>
+    <string name="str_select">선택</string>
+    <string name="str_login">지금 로그인</string>
+    <string name="str_watch"> 시계 &amp; 적립</string>
+    <string name="str_get">$100 보너스 받기</string>
+    <string name="str_google">Google로 로그인</string>
+    <string name="str_exit_yes">예 5초</string>
+    <string name="str_exit_no">아니요</string>
+    <string name="str_exit">종료하시겠습니까?</string>
+    <string name="str_rate_us_exit">우리 앱이 마음에 드시나요? 평가해 주세요! </string>
+    <string name="str_bonus">일일 보너스</string>
+    <string name="str_today_reward">오늘의 보상</string>
+    <string name="str_collect">수집</string>
+
+    <string name="str_mybalance">나의 잔액</string>
+    <string name="str_totalincome">총 수입</string>
+</resources>

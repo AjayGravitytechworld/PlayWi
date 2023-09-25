@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbg"
+    tools:context="com.abc.demo.fragment.VideoFragm">
+
+    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+        android:id="@+id/rvHd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userImage"
+            android:layout_width="@dimen/_60dp"
+            android:layout_height="@dimen/_60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_10dp"
+            android:background="@drawable/girlbg"
+            android:padding="@dimen/_4dp"
+            android:src="@drawable/igirl" />
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+            android:id="@+id/layoutName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10dp"
+            android:layout_toEndOf="@+id/userImage"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="@string/str_delesa"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18dp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_20dp"
+                    android:layout_height="@dimen/_20dp"
+                    android:src="@drawable/starl" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2dp"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="@string/str_level"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14dp"
+                    android:textStyle="bold" />
+            </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+            android:id="@+id/daily_bonus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_10dp"
+            android:layout_marginEnd="@dimen/_5dp"
+            android:layout_toStartOf="@+id/coin"
+            android:layout_toEndOf="@+id/layoutName"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/loader"
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/monybox" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="@string/str_daily_bonus"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_8dp"
+                android:visibility="gone" />
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/coin"
+            android:layout_width="@dimen/_100dp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/_5dp"
+            android:layout_toStartOf="@+id/setting"
+            android:background="@drawable/coinbg"
+            android:gravity="center"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="10k"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14dp" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/setting"
+            android:layout_width="@dimen/_32dp"
+            android:layout_height="@dimen/_32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_10dp"
+            android:src="@drawable/isetting" />
+    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rvHd">
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:id="@+id/layoutBanner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_13dp">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/vp_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150dp" />
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/tab_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginHorizontal="@dimen/_50dp"
+                    android:background="@color/transparent"
+                    app:tabGravity="center"
+                    app:tabIndicatorHeight="0dp" />
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:id="@+id/game"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50dp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/TodayTask"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_15dp"
+                    android:text="@string/str_games"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18dp"
+                    android:textStyle="bold" />
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/game"
+                android:orientation="vertical">
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/layoutDaily"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/coin_add"
+                    android:layout_marginHorizontal="8sp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:id="@+id/spin_wheel"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/_15sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/sp1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/lotti_spin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="76sp"
+                            android:src="@drawable/spinimg" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4dp"
+                            android:gravity="center"
+                            android:text="@string/str_spin_wheel"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/quizgame1"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/_15sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/gamebg_round"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="76sp"
+                            android:src="@drawable/game_iv" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/game1"
+                            android:layout_marginTop="@dimen/_4dp"
+                            android:gravity="center"
+                            android:text="@string/str_q_game"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/aass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/layoutDaily"
+                    android:layout_marginHorizontal="8sp"
+                    android:layout_marginTop="@dimen/_8dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/scratchcard"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/_15sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/scretchbg_round"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/scratch"
+                            android:layout_width="wrap_content"
+                            android:layout_height="76sp"
+                            android:src="@drawable/scartchhh" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4dp"
+                            android:gravity="center"
+                            android:text="@string/str_scratch_card"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/gift_box"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/_15sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/giftbg_round"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/lotti_giftbox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="76sp"
+                            android:src="@drawable/ggf" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4dp"
+                            android:gravity="center"
+                            android:text="@string/str_gift_box"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50dp"
+                android:layout_marginTop="@dimen/_5sdp">
+
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/lblTodayTask"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:text="@string/str_today_task"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18dp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/next1"
+                    android:layout_width="@dimen/_30dp"
+                    android:layout_height="@dimen/_30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_10dp"
+                    android:src="@drawable/btnnext" />
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_140dp"
+                android:layout_marginHorizontal="@dimen/_10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                    android:id="@+id/video1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1">
+
+                    <com.facebook.shimmer.ShimmerFrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:forceDarkAllowed="false"
+                        tools:ignore="MissingConstraints">
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <include layout="@layout/shimmer_placeholder_layout3" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+                    </com.facebook.shimmer.ShimmerFrameLayout>
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/video1_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/iibg" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/video1_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginHorizontal="@dimen/_12sdp"
+                        android:layout_marginBottom="8sp"
+                        android:layout_toStartOf="@+id/layout1"
+                        android:lines="1"
+                        android:text="@string/str_btn1tex"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14dp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:id="@+id/layout1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iv_coin1"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_marginBottom="8sp">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/tex1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10dp"
+                            android:text="30"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_15dp" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5dp"
+                            android:layout_marginTop="@dimen/_10dp"
+                            android:layout_toEndOf="@id/tex1"
+                            android:src="@drawable/coin" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                    android:id="@+id/video2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1">
+
+                    <com.facebook.shimmer.ShimmerFrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:forceDarkAllowed="false"
+                        tools:ignore="MissingConstraints">
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <include layout="@layout/shimmer_placeholder_layout3" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+                    </com.facebook.shimmer.ShimmerFrameLayout>
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/video2_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/iibg" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/video2_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginHorizontal="@dimen/_12sdp"
+                        android:layout_marginBottom="8sp"
+                        android:layout_toStartOf="@+id/layout2"
+                        android:lines="1"
+                        android:text="@string/str_btn1tex"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14dp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:id="@+id/layout2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iv_coin1"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_marginBottom="8sp">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/tex2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10dp"
+                            android:text="30"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_15dp" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5dp"
+                            android:layout_marginTop="@dimen/_10dp"
+                            android:layout_toEndOf="@id/tex2"
+                            android:src="@drawable/coin" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+            </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:id="@+id/video3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_120dp"
+                android:layout_margin="@dimen/_10dp"
+                android:layout_weight="1">
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:forceDarkAllowed="false"
+                    tools:ignore="MissingConstraints">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <include layout="@layout/shimmer_placeholder_layout3" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/video3_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/iibg" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/video3_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginHorizontal="@dimen/_5dp"
+                    android:layout_marginBottom="@dimen/_5dp"
+                    android:layout_toStartOf="@+id/layout3"
+                    android:lines="1"
+                    android:text="@string/str_btn1tex"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14dp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                    android:id="@+id/layout3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_coin1"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="@dimen/_5dp"
+                    android:layout_marginBottom="@dimen/_5dp">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tex3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10dp"
+                        android:text="30"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_15dp" />
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5dp"
+                        android:layout_marginTop="@dimen/_10dp"
+                        android:layout_toEndOf="@id/tex3"
+                        android:src="@drawable/coin" />
+                </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:id="@+id/nativeAd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5dp"
+                android:orientation="vertical" />
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50dp"
+                android:layout_marginTop="@dimen/_3sdp">
+
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/lblTrending"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_15dp"
+                    android:text="@string/str_trending_videos"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18dp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/next2"
+                    android:layout_width="@dimen/_30dp"
+                    android:layout_height="@dimen/_30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_10dp"
+                    android:src="@drawable/btnnext" />
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/todaytask_iteam" />
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50dp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_15dp"
+                    android:text="@string/str_popular_videos"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18dp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/next3"
+                    android:layout_width="@dimen/_30dp"
+                    android:layout_height="@dimen/_30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_10dp"
+                    android:src="@drawable/btnnext" />
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:spanCount="2"
+                tools:listitem="@layout/todaytask_iteam" />
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.luolc.emojirain.EmojiRainLayout
+        android:id="@+id/group_emoji_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:dropDuration="2400"
+        app:dropFrequency="500"
+        app:duration="3000"
+        app:per="10" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/floating"
+        android:layout_width="@dimen/_60dp"
+        android:layout_height="@dimen/_60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/_10dp"
+        android:layout_marginBottom="@dimen/_10dp"
+        android:src="@drawable/coin_beg" />
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>

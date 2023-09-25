@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_50dp"
+    android:layout_marginHorizontal="@dimen/_15dp"
+    android:background="#350175">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/incom_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_10dp"
+        android:text="17/7/2023"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/view1"
+        android:layout_width="@dimen/_15dp"
+        android:layout_height="@dimen/_15dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_15dp"
+        android:layout_toStartOf="@+id/incom_coin"
+        android:src="@drawable/coin" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/incom_coin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_5dp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:text="50"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16dp" />
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>

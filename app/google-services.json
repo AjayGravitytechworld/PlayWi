@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "242033129639",
+    "project_id": "watch-earn-18909",
+    "storage_bucket": "watch-earn-18909.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242033129639:android:0c5c614f3e46ce046d0382",
+        "android_client_info": {
+          "package_name": "com.watchvideo.dailyrewards.earnmoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242033129639-v4enmnp0pi0n02sd6delsuo6kkupiq7h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.watchvideo.dailyrewards.earnmoney",
+            "certificate_hash": "b039f10590a1253ae4e6c4caf19640a08f939a58"
+          }
+        },
+        {
+          "client_id": "242033129639-ikq1ot1sanldk0t704qnkt86t730ua6l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDjjcY69VE34sTga13PcYZcnO7_pWRb5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242033129639-ikq1ot1sanldk0t704qnkt86t730ua6l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbg"
+    tools:context="com.abc.demo.fragment.TaskFrag">
+
+    <uk.co.androidalliance.edgeeffectoverride.ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        app:edgeeffect_color="@color/blue">
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:id="@+id/layoutHead"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_120dp"
+                android:layout_marginHorizontal="@dimen/_10dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                    android:id="@+id/registration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/cvd4">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/coin1"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/_8dp"
+                        android:src="@drawable/cvd4f" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/coin1"
+                        android:layout_marginTop="@dimen/_8dp"
+                        android:gravity="center"
+                        android:text="@string/str_btn1tex"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14dp"
+                        android:textStyle="bold" />
+                </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                    android:id="@+id/guaranteed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn2bg">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/coin2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/_8dp"
+                        android:src="@drawable/btn2coin" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/coin2"
+                        android:layout_marginTop="@dimen/_8dp"
+                        android:gravity="center"
+                        android:text="@string/str_btn2tex"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14dp"
+                        android:textStyle="bold" />
+                </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                    android:id="@+id/new_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn3bg">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/coin3"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/_8dp"
+                        android:src="@drawable/btn3coin" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/coin3"
+                        android:layout_marginTop="@dimen/_8dp"
+                        android:gravity="center"
+                        android:text="@string/str_btn3tex"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14dp"
+                        android:textStyle="bold" />
+                </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+            <LinearLayout
+                android:id="@+id/invite_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_90dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_3dp"
+                android:layout_weight="1"
+                android:background="@drawable/vfvgv"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/coin4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55sp"
+                    android:src="@drawable/dxvf4744" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/str_btn4tex"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:id="@+id/nativeAd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5dp"
+                android:orientation="vertical" />
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_250dp"
+                android:layout_marginTop="@dimen/_8dp"
+                android:background="@drawable/allday_bg"
+                android:orientation="vertical"
+                android:padding="@dimen/_8dp">
+
+                <HorizontalScrollView
+                    android:id="@+id/H_Scroll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_140dp"
+                    android:layout_below="@+id/coin_add"
+                    android:layout_marginHorizontal="@dimen/_8dp"
+                    android:layout_marginTop="@dimen/_12dp"
+                    android:scrollbars="none">
+
+                    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                        android:id="@+id/layoutDaily"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <com.skydoves.transformationlayout.TransformationLayout
+                            android:id="@+id/day1_btn"
+                            android:layout_width="@dimen/_145sp"
+                            android:layout_height="match_parent"
+                            android:layout_marginHorizontal="@dimen/_8dp"
+                            android:background="@drawable/day_normal"
+                            app:transformation_duration="550"
+                            app:transformation_targetView="@+id/myCardView">
+
+                            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <com.google.android.material.textview.MaterialTextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:gravity="center"
+                                    android:text="20"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_15dp" />
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/iv_coin1"
+                                    android:layout_width="55sp"
+                                    android:layout_height="55sp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginHorizontal="@dimen/_4dp"
+                                    android:src="@drawable/day1coin" />
+
+                                <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/iv_coin1"
+                                    android:layout_centerInParent="true">
+
+                                    <com.google.android.material.textview.MaterialTextView
+                                        android:id="@+id/Tday1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/_10dp"
+                                        android:text="@string/str_day1"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/_15dp" />
+
+                                    <com.google.android.material.imageview.ShapeableImageView
+                                        android:layout_width="wrap_content"
+                                        android:visibility="gone"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="@dimen/_5dp"
+                                        android:layout_marginTop="@dimen/_10dp"
+                                        android:layout_toEndOf="@id/tex1"
+                                        android:src="@drawable/coin" />
+                                </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                        </com.skydoves.transformationlayout.TransformationLayout>
+
+                        <com.skydoves.transformationlayout.TransformationLayout
+                            android:id="@+id/day2_btn"
+                            android:layout_width="@dimen/_145sp"
+                            android:layout_height="match_parent"
+                            android:layout_marginHorizontal="@dimen/_8dp"
+                            android:background="@drawable/day_normal"
+                            app:transformation_duration="550"
+                            app:transformation_targetView="@+id/myCardView">
+
+                            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <com.google.android.material.textview.MaterialTextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:gravity="center"
+                                    android:text="30"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_15dp" />
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/iv_coin2"
+                                    android:layout_width="55sp"
+                                    android:layout_height="55sp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginHorizontal="@dimen/_4dp"
+                                    android:src="@drawable/day1coin" />
+
+                                <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/iv_coin2"
+                                    android:layout_centerInParent="true">
+
+                                    <com.google.android.material.textview.MaterialTextView
+                                        android:id="@+id/Tday2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/_10dp"
+                                        android:text="@string/str_day2"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/_15dp" />
+
+                                </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                        </com.skydoves.transformationlayout.TransformationLayout>
+
+                        <com.skydoves.transformationlayout.TransformationLayout
+                            android:id="@+id/day3_btn"
+                            android:layout_width="@dimen/_145sp"
+                            android:layout_height="match_parent"
+                            android:layout_marginHorizontal="@dimen/_8dp"
+                            android:background="@drawable/day_normal"
+                            app:transformation_duration="550"
+                            app:transformation_targetView="@+id/myCardView">
+
+                            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <com.google.android.material.textview.MaterialTextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:gravity="center"
+                                    android:text="35"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_15dp" />
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/iv_coin3"
+                                    android:layout_width="55sp"
+                                    android:layout_height="55sp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginHorizontal="@dimen/_4dp"
+                                    android:src="@drawable/day1coin" />
+
+                                <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/iv_coin3"
+                                    android:layout_centerInParent="true">
+
+                                    <com.google.android.material.textview.MaterialTextView
+                                        android:id="@+id/Tday3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/_10dp"
+                                        android:text="@string/str_day3"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/_15dp" />
+
+                                </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                        </com.skydoves.transformationlayout.TransformationLayout>
+
+                        <com.skydoves.transformationlayout.TransformationLayout
+                            android:id="@+id/day4_btn"
+                            android:layout_width="@dimen/_145sp"
+                            android:layout_height="match_parent"
+                            android:layout_marginHorizontal="@dimen/_8dp"
+                            android:background="@drawable/day_normal"
+                            app:transformation_duration="550"
+                            app:transformation_targetView="@+id/myCardView">
+
+                            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <com.google.android.material.textview.MaterialTextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:gravity="center"
+                                    android:text="40"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_15dp" />
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/iv_coin4"
+                                    android:layout_width="55sp"
+                                    android:layout_height="55sp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginHorizontal="@dimen/_4dp"
+                                    android:src="@drawable/day1coin" />
+
+                                <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/iv_coin4"
+                                    android:layout_centerInParent="true">
+
+                                    <com.google.android.material.textview.MaterialTextView
+                                        android:id="@+id/Tday4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/_10dp"
+                                        android:text="@string/str_day4"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/_15dp" />
+
+                                </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                        </com.skydoves.transformationlayout.TransformationLayout>
+
+                        <com.skydoves.transformationlayout.TransformationLayout
+                            android:id="@+id/day5_btn"
+                            android:layout_width="@dimen/_145sp"
+                            android:layout_height="match_parent"
+                            android:layout_marginHorizontal="@dimen/_8dp"
+
+                            android:background="@drawable/day_normal"
+                            app:transformation_duration="550"
+                            app:transformation_targetView="@+id/myCardView">
+
+                            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <com.google.android.material.textview.MaterialTextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:gravity="center"
+                                    android:text="50"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_15dp" />
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/iv_coin5"
+                                    android:layout_width="55sp"
+                                    android:layout_height="55sp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginHorizontal="@dimen/_4dp"
+                                    android:src="@drawable/day1coin" />
+
+                                <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/iv_coin5"
+                                    android:layout_centerInParent="true">
+
+                                    <com.google.android.material.textview.MaterialTextView
+                                        android:id="@+id/Tday5"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/_10dp"
+                                        android:text="@string/str_day5"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/_15dp" />
+
+                                </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                        </com.skydoves.transformationlayout.TransformationLayout>
+
+                        <com.skydoves.transformationlayout.TransformationLayout
+                            android:id="@+id/day6_btn"
+                            android:layout_width="@dimen/_145sp"
+                            android:layout_height="match_parent"
+                            android:layout_marginHorizontal="@dimen/_8dp"
+
+                            android:background="@drawable/day_normal"
+                            app:transformation_duration="550"
+                            app:transformation_targetView="@+id/myCardView">
+
+                            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <com.google.android.material.textview.MaterialTextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:gravity="center"
+                                    android:text="100"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_15dp" />
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/iv_coin6"
+                                    android:layout_width="55sp"
+                                    android:layout_height="55sp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginHorizontal="@dimen/_4dp"
+                                    android:src="@drawable/day1coin" />
+
+                                <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/iv_coin6"
+                                    android:layout_centerInParent="true">
+
+                                    <com.google.android.material.textview.MaterialTextView
+                                        android:id="@+id/Tday6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/_10dp"
+                                        android:text="@string/str_day6"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/_15dp" />
+
+                                </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                        </com.skydoves.transformationlayout.TransformationLayout>
+
+                        <com.skydoves.transformationlayout.TransformationLayout
+                            android:id="@+id/day7_btn"
+                            android:layout_width="@dimen/_145sp"
+                            android:layout_height="match_parent"
+                            android:layout_marginHorizontal="@dimen/_8dp"
+                            android:background="@drawable/day_normal"
+                            app:transformation_duration="550"
+                            app:transformation_targetView="@+id/myCardView">
+
+                            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <com.google.android.material.textview.MaterialTextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:gravity="center"
+                                    android:text="300"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_15dp" />
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/iv_coin7"
+                                    android:layout_width="55sp"
+                                    android:layout_height="55sp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginHorizontal="@dimen/_4dp"
+                                    android:src="@drawable/day1coin" />
+
+                                <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/iv_coin7"
+                                    android:layout_centerInParent="true">
+
+                                    <com.google.android.material.textview.MaterialTextView
+                                        android:id="@+id/Tday7"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/_10dp"
+                                        android:text="@string/str_day7"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/_15dp" />
+
+                                </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                        </com.skydoves.transformationlayout.TransformationLayout>
+                    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+                </HorizontalScrollView>
+
+                <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                    android:id="@+id/btnCheckIn"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_140dp"
+                    android:layout_below="@+id/H_Scroll"
+                    android:layout_marginHorizontal="@dimen/_21dp"
+                    android:layout_marginTop="@dimen/_15dp"
+                    android:background="@drawable/checkcoin_bg">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        android:drawableStart="@drawable/iv_a"
+                        android:text="+100"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_16dp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tex_check"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="@dimen/_12sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:background="@drawable/e"
+                        android:gravity="center"
+                        android:padding="@dimen/_10sdp"
+                        android:text="@string/str_checkbtn"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold" />
+
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:layout_toEndOf="@+id/llcheck"
+                        android:src="@drawable/btnx3"
+                        android:visibility="gone" />
+                </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:id="@+id/notification_check"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40dp"
+                android:layout_marginHorizontal="@dimen/_15dp"
+                android:layout_marginTop="@dimen/_8dp"
+                android:background="@drawable/notif_bg"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imgNoti"
+                    android:layout_width="@dimen/_20dp"
+                    android:layout_height="@dimen/_20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_15dp"
+                    android:src="@drawable/notif_iv" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/lblNoti"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_15dp"
+                    android:layout_toEndOf="@+id/imgNoti"
+                    android:text="@string/str_notiF_check"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15dp" />
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:id="@+id/nativeAd2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5dp"
+                android:orientation="vertical" />
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/llA"
+                    android:layout_width="@dimen/_30dp"
+                    android:layout_height="@dimen/_30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_15dp"
+                    android:layout_marginTop="@dimen/_10dp"
+                    android:src="@drawable/today_taskiv" />
+
+                <com.sarnava.textwriter.TextWriter
+                    android:id="@+id/TodayTask"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_5dp"
+                    android:layout_toEndOf="@id/llA"
+                    android:text="@string/str_todaytask"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18dp"
+                    android:textStyle="bold" />
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/todaytask_iteam" />
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_110dp"
+                android:layout_marginHorizontal="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:background="@drawable/taskbtnbg"
+                android:visibility="gone">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/iv_gif"
+                    android:layout_width="@dimen/_60dp"
+                    android:layout_height="@dimen/_60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:src="@drawable/taskgift1" />
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginHorizontal="@dimen/_10dp"
+                    android:layout_toStartOf="@+id/layoutCC1"
+                    android:layout_toEndOf="@+id/iv_gif"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:id="@+id/rv_gift"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_weight="1">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/gift_tv1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/str_gifttex"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_14dp"
+                            android:textStyle="bold" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/gift_tv1"
+                            android:layout_marginTop="@dimen/_5dp"
+                            android:text="@string/str_gifttex1"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_10dp" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/layoutCC1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/_20dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/ivmoney"
+                            android:layout_width="@dimen/_20dp"
+                            android:layout_height="@dimen/_20dp"
+                            android:src="@drawable/moneyiv" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_5dp"
+                            android:text="+₹100"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp" />
+                    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_35dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/_5dp"
+                        android:src="@drawable/getbtn" />
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:id="@+id/btnRegisterReward"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_110dp"
+                android:layout_marginHorizontal="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginBottom="@dimen/_10dp"
+                android:background="@drawable/taskbtnbg"
+                android:visibility="gone">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imgRegisterReward"
+                    android:layout_width="@dimen/_60dp"
+                    android:layout_height="@dimen/_60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:src="@drawable/task_reg_rewad" />
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginHorizontal="@dimen/_10dp"
+                    android:layout_toStartOf="@+id/layoutCC2"
+                    android:layout_toEndOf="@+id/imgRegisterReward"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/gift_tv2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/str_gifttex"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/gift_tv2"
+                            android:layout_marginTop="@dimen/_5dp"
+                            android:text="@string/str_gifttex1"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_10dp" />
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:id="@+id/layoutCC2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/_20dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/_20dp"
+                            android:layout_height="@dimen/_20dp"
+                            android:src="@drawable/moneyiv" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_5dp"
+                            android:text="+₹25"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12dp" />
+                    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_60dp"
+                        android:layout_height="@dimen/_35dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/_5dp"
+                        android:src="@drawable/getbtn" />
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:id="@+id/nativeAd3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5dp"
+                android:orientation="vertical" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/task_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/game_item" />
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+    </uk.co.androidalliance.edgeeffectoverride.ScrollView>
+
+    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:id="@+id/myCardView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_500dp"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="@dimen/_20dp"
+        android:background="@drawable/dialogbg1"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30dp"
+            android:gravity="center"
+            android:text="@string/str_daily_bonus"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_22dp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/today_reward"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_50dp"
+            android:gravity="center"
+            android:text="@string/str_today_reward"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18dp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/coin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150dp"
+            android:layout_below="@+id/today_reward"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_30dp"
+            android:src="@drawable/daily_coin" />
+
+        <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+            android:id="@+id/rv_day"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_90dp"
+            android:layout_below="@+id/coin"
+            android:layout_marginHorizontal="@dimen/_40dp"
+            android:layout_marginTop="@dimen/_8dp"
+            android:orientation="horizontal">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_90dp"
+                android:scrollbars="none">
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:id="@+id/day1"
+                        android:layout_width="@dimen/_75dp"
+                        android:layout_height="@dimen/_90dp"
+                        android:layout_marginHorizontal="@dimen/_3dp"
+                        android:background="@drawable/day_normal">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/rv_Tday1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_8dp"
+                            android:gravity="center"
+                            android:text="@string/str_day1"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_13dp" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/rv_iv_coin1"
+                            android:layout_width="@dimen/_35dp"
+                            android:layout_height="@dimen/_25dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="@dimen/_4dp"
+                            android:src="@drawable/day1coin" />
+
+                        <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/rv_iv_coin1"
+                            android:layout_centerInParent="true">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/rv_tex1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_8dp"
+                                android:text="25"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_12dp" />
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:layout_width="@dimen/_20dp"
+                                android:layout_height="@dimen/_15dp"
+                                android:layout_marginLeft="@dimen/_3dp"
+                                android:layout_marginTop="@dimen/_8dp"
+                                android:layout_toEndOf="@id/rv_tex1"
+                                android:src="@drawable/coin" />
+                        </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:id="@+id/day2"
+                        android:layout_width="@dimen/_75dp"
+                        android:layout_height="@dimen/_90dp"
+                        android:layout_marginHorizontal="@dimen/_3dp"
+                        android:background="@drawable/day_normal">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/rv_Tday2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_8dp"
+                            android:gravity="center"
+                            android:text="@string/str_day2"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_13dp" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/rv_iv_coin2"
+                            android:layout_width="@dimen/_35dp"
+                            android:layout_height="@dimen/_25dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="@dimen/_4dp"
+                            android:src="@drawable/day1coin" />
+
+                        <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/rv_iv_coin2"
+                            android:layout_centerInParent="true">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/rv_tex2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_8dp"
+                                android:text="30"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_12dp" />
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:layout_width="@dimen/_20dp"
+                                android:layout_height="@dimen/_15dp"
+                                android:layout_marginLeft="@dimen/_3dp"
+                                android:layout_marginTop="@dimen/_8dp"
+                                android:layout_toEndOf="@id/rv_tex2"
+                                android:src="@drawable/coin" />
+                        </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:id="@+id/day3"
+                        android:layout_width="@dimen/_75dp"
+                        android:layout_height="@dimen/_90dp"
+                        android:layout_marginHorizontal="@dimen/_3dp"
+                        android:background="@drawable/day_normal">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/rv_Tday3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_8dp"
+                            android:gravity="center"
+                            android:text="@string/str_day3"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_13dp" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/rv_iv_coin3"
+                            android:layout_width="@dimen/_35dp"
+                            android:layout_height="@dimen/_25dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="@dimen/_4dp"
+                            android:src="@drawable/day1coin" />
+
+                        <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/rv_iv_coin3"
+                            android:layout_centerInParent="true">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/rv_tex3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_8dp"
+                                android:text="35"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_12dp" />
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:layout_width="@dimen/_20dp"
+                                android:layout_height="@dimen/_15dp"
+                                android:layout_marginLeft="@dimen/_3dp"
+                                android:layout_marginTop="@dimen/_8dp"
+                                android:layout_toEndOf="@id/rv_tex3"
+                                android:src="@drawable/coin" />
+                        </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:id="@+id/day4"
+                        android:layout_width="@dimen/_75dp"
+                        android:layout_height="@dimen/_90dp"
+                        android:layout_marginHorizontal="@dimen/_3dp"
+                        android:background="@drawable/day_normal">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/rv_Tday4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_8dp"
+                            android:gravity="center"
+                            android:text="@string/str_day4"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_13dp" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/rv_iv_coin4"
+                            android:layout_width="@dimen/_35dp"
+                            android:layout_height="@dimen/_25dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="@dimen/_4dp"
+                            android:src="@drawable/day1coin" />
+
+                        <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/rv_iv_coin4"
+                            android:layout_centerInParent="true">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/rv_tex4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_8dp"
+                                android:text="40"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_12dp" />
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:layout_width="@dimen/_20dp"
+                                android:layout_height="@dimen/_15dp"
+                                android:layout_marginLeft="@dimen/_3dp"
+                                android:layout_marginTop="@dimen/_8dp"
+                                android:layout_toEndOf="@id/rv_tex4"
+                                android:src="@drawable/coin" />
+                        </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:id="@+id/day5"
+                        android:layout_width="@dimen/_75dp"
+                        android:layout_height="@dimen/_90dp"
+                        android:layout_marginHorizontal="@dimen/_3dp"
+                        android:background="@drawable/day_normal">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/rv_Tday5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_8dp"
+                            android:gravity="center"
+                            android:text="@string/str_day5"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_13dp" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/rv_iv_coin5"
+                            android:layout_width="@dimen/_35dp"
+                            android:layout_height="@dimen/_25dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="@dimen/_4dp"
+                            android:src="@drawable/day1coin" />
+
+                        <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/rv_iv_coin5"
+                            android:layout_centerInParent="true">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/rv_tex5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_8dp"
+                                android:text="50"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_12dp" />
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:layout_width="@dimen/_20dp"
+                                android:layout_height="@dimen/_15dp"
+                                android:layout_marginLeft="@dimen/_3dp"
+                                android:layout_marginTop="@dimen/_8dp"
+                                android:layout_toEndOf="@id/rv_tex5"
+                                android:src="@drawable/coin" />
+                        </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:id="@+id/day6"
+                        android:layout_width="@dimen/_75dp"
+                        android:layout_height="@dimen/_90dp"
+                        android:layout_marginHorizontal="@dimen/_3dp"
+                        android:background="@drawable/day_normal">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/rv_Tday6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_8dp"
+                            android:gravity="center"
+                            android:text="@string/str_day6"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_13dp" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/rv_iv_coin6"
+                            android:layout_width="@dimen/_35dp"
+                            android:layout_height="@dimen/_25dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="@dimen/_4dp"
+                            android:src="@drawable/day1coin" />
+
+                        <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/rv_iv_coin6"
+                            android:layout_centerInParent="true">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/rv_tex6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_8dp"
+                                android:text="100"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_12dp" />
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:layout_width="@dimen/_20dp"
+                                android:layout_height="@dimen/_15dp"
+                                android:layout_marginLeft="@dimen/_3dp"
+                                android:layout_marginTop="@dimen/_8dp"
+                                android:layout_toEndOf="@id/rv_tex6"
+                                android:src="@drawable/coin" />
+                        </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+                    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                        android:id="@+id/day7"
+                        android:layout_width="@dimen/_75dp"
+                        android:layout_height="@dimen/_90dp"
+                        android:layout_marginHorizontal="@dimen/_3dp"
+                        android:background="@drawable/day_normal">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/rv_Tday7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_8dp"
+                            android:gravity="center"
+                            android:text="@string/str_day7"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_13dp" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/rv_iv_coin7"
+                            android:layout_width="@dimen/_35dp"
+                            android:layout_height="@dimen/_25dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="@dimen/_4dp"
+                            android:src="@drawable/day1coin" />
+
+                        <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/rv_iv_coin7"
+                            android:layout_centerInParent="true">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/rv_tex7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_8dp"
+                                android:text="300"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_12dp" />
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:layout_width="@dimen/_20dp"
+                                android:layout_height="@dimen/_15dp"
+                                android:layout_marginLeft="@dimen/_3dp"
+                                android:layout_marginTop="@dimen/_8dp"
+                                android:layout_toEndOf="@id/rv_tex7"
+                                android:src="@drawable/coin" />
+                        </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+            </HorizontalScrollView>
+        </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+        <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+            android:id="@+id/btn_collect1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40dp"
+            android:layout_marginHorizontal="@dimen/_70dp"
+            android:layout_marginTop="@dimen/_15dp"
+            android:background="@drawable/collect_bg">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/str_collect"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15dp"
+                android:textStyle="bold" />
+        </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>

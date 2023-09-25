@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">Assistir ao vídeo</string>
+    <string name="str_dev_option">Você ativou a opção Desenvolvedor em seu telefone, desative a opção Desenvolvedor para aproveitar o serviço de nosso aplicativo.</string>
+    <string name="str_recheck">RECHECAR</string>
+    <string name="str_turnoff">DESLIGAR</string>
+    <string name="str_contain_ads">Esta ação pode conter anúncios</string>
+    <string name="str_recomondet">Deixe-me recomendar a você este aplicativo </string>
+    <string name="str_choose_one">escolha um</string>
+
+    <string name="str_start">Começar a ganhar</string>
+    <string name="str_share">Compartilhar</string>
+    <string name="str_rate">Taxa</string>
+    <string name="str_privecy">Privacidade</string>
+    <string name="str_games">Jogos</string>
+
+    <string name="str_video">Vídeo</string>
+    <string name="str_money">Dinheiro</string>
+    <string name="str_tasks">Tarefas</string>
+    <string name="str_game">Jogo</string>
+    <string name="str_profile">Perfil</string>
+    <string name="str_q_game">Jogo de Quiz</string>
+    <string name="str_gift_box">Caixa de presente</string>
+
+    <string name="str_spinWheel">Girar Roda</string>
+    <string name="str_scratch">Raspadinha</string>
+    <string name="str_scratch_card">Raspadinha</string>
+    <string name="str_slot">Slot Máquina</string>
+    <string name="str_quiz">Quiz Jogo</string>
+    <string name="str_gift">Presente Caixa</string>
+    <string name="str_wallet">Carteira</string>
+    <string name="str_invite">Convidar Ganha</string>
+    <string name="str_rateus">Avalie Us</string>
+
+    <string name="str_spinbtn">Girar &amp; Ganhe</string>
+    <string name="str_scratchbtn">Raspar &amp; Vitória</string>
+    <string name="str_slotbtn">Slot &amp; Vitória</string>
+    <string name="str_ansbtn">Resposta &amp; Vitória</string>
+    <string name="str_gifbtn">Presente o dia todo</string>
+    <string name="str_walletbtn">Sua carteira</string>
+    <string name="str_invitebtn">Convidar &amp; Ganhe</string>
+    <string name="str_ratebtn">Avalie-nos</string>
+
+    <string name="str_delesa">Delesa Wan</string>
+    <string name="str_level">NÍVEL 1</string>
+    <string name="str_daily_bonus">Bônus diário</string>
+
+    <string name="str_today_task">Tarefa de hoje</string>
+    <string name="str_notiF_check">Você tem 5 mensagens. Confira >></string>
+
+    <string name="str_btn1tex">Inscrição \nRecompensas</string>
+    <string name="str_btn2tex">Ganhe ₹30 \nGarantido!!</string>
+    <string name="str_btn3tex">Novo usuário \nRecompensas</string>
+    <string name="str_btn4tex">1º Convite \nPrêmios</string>
+
+    <string name="str_day1">Dia 1</string>
+    <string name="str_day2">Dia 2</string>
+    <string name="str_day3">Dia 3</string>
+    <string name="str_day4">Dia 4</string>
+    <string name="str_day5">Dia 5</string>
+    <string name="str_day6">Dia 6</string>
+    <string name="str_day7">Dia 7</string>
+    <string name="str_todaytask">Tarefa de hoje</string>
+
+    <string name="str_checkbtn">Check-in</string>
+    <string name="str_gifttex">Pacote de presente apenas para novos usuários! \nGanhe ₹100 facilmente!! </string>
+    <string name="str_gifttex1">Conclua todas as tarefas do pacote de presente! \no pacote de presente! </string>
+
+    <string name="str_profileH">Perfil</string>
+    <string name="str_NameProfile">Delesa Wan</string>
+    <string name="str_ProtodayC">Moedas de hoje</string>
+    <string name="str_ProEarnings">Ganhos</string>
+    <string name="str_inviteFD">Convidar amigos</string>
+    <string name="str_incomeHistory">Histórico de Renda</string>
+    <string name="str_leaderboard">Tabela de classificação</string>
+    <string name="str_messages">Mensagens</string>
+    <string name="str_faqs">Perguntas frequentes</string>
+    <string name="str_feedback">Feedback</string>
+    <string name="str_setting">Configuração</string>
+
+    <string name="str_week">Semana</string>
+    <string name="str_month">Mês</string>
+    <string name="str_shareP">Compartilhar</string>
+    <string name="str_dailogtv1">1. Desculpe! você não tem aplicativo de \n Whatsapp pessoal</string>
+    <string name="str_dailogtv2">2. Clique no botão abaixo para fazer o download ou \nfaça o download você mesmo</string>
+    <string name="str_continue">Continuar</string>
+
+    <string name="str_income">Receita</string>
+    <string name="str_coins">Moedas</string>
+    <string name="str_rupees">Rúpias</string>
+    <string name="str_redeem">Resgatar</string>
+    <string name="str_redeemtex">Se você deseja converter moedas em saldo, \nclique em [ Resgatar ]</string>
+    <string name="str_Daily_income">Receita diária</string>
+    <string name="str_Check_In">Recompensa de check-in</string>
+
+    <string name="str_spin_wheel">Roda giratória</string>
+    <string name="str_btn_spin_wheel">Roda giratória (0/5)</string>
+    <string name="str_btn_slot_machine">Caça-níqueis</string>
+
+    <string name="str_trending_game">Jogos em alta</string>
+    <string name="str_gamers">Jogadores, você pode gostar</string>
+    <string name="str_most_games">Jogos mais jogados</string>
+    <string name="str_adventure_games">Jogo de aventura</string>
+    <string name="str_popular_games">Jogos Populares</string>
+
+    <string name="str_play">Tocar</string>
+    <string name="str_game1">Conecte-o</string>
+    <string name="str_game2">Raposa Bolha Mágica</string>
+    <string name="str_game3">Pintar a casa</string>
+    <string name="str_game4">Happy Popcorn</string>
+    <string name="str_game5">Trânsito Crossy</string>
+    <string name="str_game6">Garoto da Selva</string>
+    <string name="str_game7">Campeão do Deserto</string>
+    <string name="str_game8">Correspondência hexadecimal</string>
+    <string name="str_game9">Air Hockey</string>
+    <string name="str_game10">Guerra Aérea</string>
+    <string name="str_game11">Alien-Hunter 2</string>
+    <string name="str_game12">Tiro do Gato Furioso</string>
+    <string name="str_game13">Animals-Crush</string>
+    <string name="str_game14">Cavaleiro Assassino</string>
+    <string name="str_game15">Barn Dash</string>
+    <string name="str_game16">Basquetebol</string>
+    <string name="str_game17">Bilhar</string>
+    <string name="str_game18">Pilha de blocos</string>
+    <string name="str_game19">Block Snake</string>
+    <string name="str_game20">Hora do café da manhã</string>
+
+
+    <string name="str_m_game1">Brickout</string>
+    <string name="str_m_game2">Bola de chiclete...</string>
+    <string name="str_m_game3">Hora do Hambúrguer</string>
+    <string name="str_m_game4">Carros</string>
+    <string name="str_m_game5">Crazy Runner</string>
+    <string name="str_m_game6">Dia Assustador</string>
+    <string name="str_m_game7">Cube Dash</string>
+    <string name="str_m_game8">Cubo Ninja</string>
+    <string name="str_m_game9">Cyber ​​Slashman</string>
+    <string name="str_m_game10">Soldado Cibernético</string>
+    <string name="str_m_game11">Ninja Sombrio</string>
+    <string name="str_m_game12">Arremessadores</string>
+    <string name="str_m_game13">Dead-Land-A...</string>
+    <string name="str_m_game14">Campeão de defesa</string>
+    <string name="str_m_game15">Caçador de Patos</string>
+    <string name="str_m_game16">Atirador de pato</string>
+    <string name="str_m_game17">Duosometric J...</string>
+    <string name="str_m_game18">Soldado dos Bombeiros</string>
+    <string name="str_m_game19">Frenesi de Pesca</string>
+    <string name="str_m_game20">Flappy Pig</string>
+
+    <string name="str_ad_game1">Floor-Jumper</string>
+    <string name="str_ad_game2">Frog-Super Bubbl..</string>
+    <string name="str_ad_game3">Cobra de fruta</string>
+    <string name="str_ad_game4">Fruitslasher</string>
+    <string name="str_ad_game5">Animais Engraçados</string>
+    <string name="str_ad_game6">Vestido de menina</string>
+    <string name="str_ad_game7">Enlouquecendo</string>
+    <string name="str_ad_game8">Garimpeiro</string>
+    <string name="str_ad_game9">Gold Miner Jack</string>
+    <string name="str_ad_game10">Grandes batalhas aéreas</string>
+    <string name="str_ad_game11">Bolha de Halloween</string>
+    <string name="str_ad_game12">Sem mãos</string>
+    <string name="str_ad_game13">Feliz Dia das Bruxas</string>
+    <string name="str_ad_game14">Enigma Hexa</string>
+    <string name="str_ad_game15">Aventura de Joee</string>
+    <string name="str_ad_game16">Pular Pular</string>
+    <string name="str_ad_game17">Jumpers Jumpers</string>
+    <string name="str_ad_game18">Tesouro da Selva</string>
+    <string name="str_ad_game19">Knife-Vs Zombies</string>
+    <string name="str_ad_game20">Cientista Maluco</string>
+
+    <string name="str_rewards">Minhas recompensas</string>
+    <string name="str_language">Idioma</string>
+    <string name="str_english">Inglês</string>
+    <string name="str_quick">Leitura rápida</string>
+    <string name="str_calander">Lembrete do calendário</string>
+    <string name="str_pushNoti">Notificação Push</string>
+    <string name="str_clear_cache">Limpar Cache</string>
+    <string name="str_mb">MB</string>
+    <string name="str_check_update">Verificar atualização</string>
+    <string name="str_cloud">Serviço Cloud</string>
+    <string name="str_my_account">Minha conta</string>
+    <string name="str_withdr_method">Método de retirada</string>
+    <string name="str_withdr_amount">Valor da retirada</string>
+    <string name="str_new_amount">Novo jogador</string>
+    <string name="str_redee_dailog">1. O processo de retirada de dinheiro é:
+candidatura - preenchimento de dados -
+revisão do aplicativo - emissão de dinheiro. Por favor
+verifique suas informações antes de aplicar.
+2. Se qualquer aplicação anormal de
+traição é encontrada, a retirada
+pedido será rejeitado.
+3. Cada pedido de retirada será
+revistos e concluídos rapidamente, por favor
+ser paciente.
+4. Se você tiver alguma dúvida, por favor
+contato shaojiefan72@gmail.com
+5. Abra baús de tesouro para coletar
+diamantes mais rápido.
+</string>
+    <string name="str_languageSelect">Selecionar idiomas</string>
+    <string name="str_hindi">Hindi</string>
+    <string name="str_spanish">Espanhol</string>
+    <string name="str_portuguese">Português</string>
+    <string name="str_Korean">Coreano</string>
+    <string name="str_indonesia">Indonésia</string>
+    <string name="str_select">Selecionar</string>
+    <string name="str_login">Agora faça login</string>
+    <string name="str_watch"> Assistir &amp; Ganhe</string>
+    <string name="str_get">Ganhe $ 100 de bônus</string>
+    <string name="str_google">Faça login com o Google</string>
+    <string name="str_exit_yes">Sim 5s</string>
+    <string name="str_exit_no">Não</string>
+    <string name="str_exit">Deseja sair?</string>
+    <string name="str_rate_us_exit">Gostou do nosso aplicativo Avalie-nos! </string>
+    <string name="str_bonus">Bônus Diário</string>
+    <string name="str_today_reward">Recompensa de hoje</string>
+    <string name="str_collect">Coletar</string>
+
+    <string name="str_mybalance">Meu Saldo</string>
+    <string name="str_totalincome">Receita total</string>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashbg"
+    tools:context=".ui.aaLoginActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/login_rv"
+                android:layout_marginTop="@dimen/_20dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/img_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/login_iv" />
+
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:id="@+id/login_rv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20dp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/now"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_login"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_20dp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5dp"
+                    android:layout_toEndOf="@+id/now"
+                    android:text="@string/str_watch"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/_20dp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/now"
+                    android:layout_marginStart="@dimen/_35dp"
+                    android:text="@string/str_get"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_20dp"
+                    android:textStyle="bold" />
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/btnLoginGuest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_40dp"
+                android:text="@string/str_login_as_guest"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_22dp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:id="@+id/login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="68sp"
+                android:layout_marginHorizontal="@dimen/_35dp"
+                android:layout_marginTop="@dimen/_20dp"
+                android:background="@drawable/loginbtn">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/start_iv"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_25dp"
+                    android:src="@drawable/bi_google" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:layout_toEndOf="@id/start_iv"
+                    android:text="@string/str_google"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_22dp"
+                    android:textStyle="bold" />
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:id="@+id/nativeAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_5dp"
+        android:orientation="vertical" />
+
+
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>

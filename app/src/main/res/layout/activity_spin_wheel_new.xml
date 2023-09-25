@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbg"
+    tools:context=".ui.aaSpinWheelNewActivity">
+
+    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_56dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/btn_back"
+            android:layout_width="@dimen/_35dp"
+            android:layout_height="@dimen/_35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_10dp"
+            android:src="@drawable/image_back" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/lucky_monkey_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18dp"
+            android:textStyle="bold" />
+    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="@dimen/_20dp"
+        app:layout_constraintBottom_toTopOf="@+id/nativeAd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:scrollbars="none">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/coin"
+                    android:layout_width="@dimen/_140dp"
+                    android:layout_height="@dimen/_40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_10dp"
+                    android:background="@drawable/coinbg"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="10k"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/header" />
+
+                <com.abc.demo.utils.aaLuckyWheelView
+                    android:id="@+id/luckyWheel"
+                    android:layout_width="@dimen/_300dp"
+                    android:layout_height="@dimen/_300dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_20dp"
+                    app:lkwBackgroundColor="#B68E3A"
+                    app:lkwCenterImage="@drawable/wheel2"
+                    app:lkwCursor="@drawable/ic_cursor"
+                    app:lkwTopTextColor="#263238" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/lblCArd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_20dp"
+                    android:text="@string/str_spinnew_text"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_22dp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                    android:id="@+id/play"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50dp"
+                    android:layout_above="@+id/btn_spinWheel"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginHorizontal="@dimen/_50dp"
+                    android:layout_marginTop="@dimen/_50dp"
+                    android:layout_marginBottom="20sp"
+                    android:background="@drawable/collect_bg">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/text_playy"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_15dp"
+                        android:textStyle="bold" />
+                </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+                <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                    android:id="@+id/btn_spinWheel"
+                    android:layout_width="match_parent"
+                    android:layout_height="55sp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginHorizontal="20sp"
+                    android:layout_marginBottom="20sp"
+                    android:background="@drawable/spinbtn_bg">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/lblLimit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/str_btn_spin_wheel"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_14dp"
+                        android:textStyle="bold" />
+                </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+            </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:id="@+id/nativeAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/banner_container" />
+
+    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

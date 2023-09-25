@@ -1,0 +1,219 @@
+<resources>
+    <string name="app_name">Tonton Video</string>
+    <string name="str_dev_option">Anda telah mengaktifkan opsi Pengembang di ponsel Anda, harap nonaktifkan opsi Pengembang untuk menikmati layanan Aplikasi kami.</string>
+    <string name="str_recheck">PERIKSA ULANG</string>
+    <string name="str_turnoff">MATIKAN</string>
+    <string name="str_contain_ads">Tindakan ini dapat berisi Iklan</string>
+    <string name="str_recomondet">Izinkan saya merekomendasikan aplikasi ini kepada Anda</string>
+    <string name="str_choose_one">pilih salah satu</string>
+
+    <string name="str_start">Mulai Hasilkan</string>
+    <string name="str_share">Bagikan</string>
+    <string name="str_rate">Nilai</string>
+    <string name="str_privecy">Privasi</string>
+    <string name="str_games">Game</string>
+
+    <string name="str_video">Video</string>
+    <string name="str_money">Uang</string>
+    <string name="str_tasks">Tugas</string>
+    <string name="str_game">Permainan</string>
+    <string name="str_profile">Profil</string>
+    <string name="str_q_game">Permainan Kuis</string>
+    <string name="str_gift_box">Kotak Hadiah</string>
+
+    <string name="str_spinWheel">Putar Roda</string>
+    <string name="str_scratch">Gores</string>
+    <string name="str_scratch_card">Kartu Gosok</string>
+    <string name="str_slot">Slot Mesin</string>
+    <string name="str_quiz">Kuis Permainan</string>
+    <string name="str_gift">HadiahKotak</string>
+    <string name="str_wallet">Dompet</string>
+    <string name="str_invite">Undang Dapatkan</string>
+    <string name="str_rateus">Nilai Us</string>
+
+    <string name="str_spinbtn">Putar &amp; Hasilkan</string>
+    <string name="str_scratchbtn">Gores &amp; Menang</string>
+    <string name="str_slotbtn">Slot &amp; Menang</string>
+    <string name="str_ansbtn">Ans &amp; Menang</string>
+    <string name="str_gifbtn">Hadiah Sepanjang Hari</string>
+    <string name="str_walletbtn">Dompet Anda</string>
+    <string name="str_invitebtn">Undang &amp; Hasilkan</string>
+    <string name="str_ratebtn">Nilai Kami</string>
+
+    <string name="str_delesa">Delesa Wan</string>
+    <string name="str_level">TINGKAT 1</string>
+    <string name="str_daily_bonus">Bonus Harian</string>
+
+    <string name="str_today_task">Tugas Hari Ini</string>
+    <string name="str_notiF_check">Anda mendapat 5 pesan. Lihat >></string>
+
+    <string name="str_btn1tex">Pendaftaran \nHadiah</string>
+    <string name="str_btn2tex">Dapatkan ₹30 \nDijamin!!</string>
+    <string name="str_btn3tex">Pengguna Baru \nHadiah</string>
+    <string name="str_btn4tex">Undangan Pertama \nHadiah</string>
+
+    <string name="str_day1">Hari 1</string>
+    <string name="str_day2">Hari ke-2</string>
+    <string name="str_day3">Hari ke-3</string>
+    <string name="str_day4">Hari ke-4</string>
+    <string name="str_day5">Hari ke-5</string>
+    <string name="str_day6">Hari ke-6</string>
+    <string name="str_day7">Hari ke-7</string>
+    <string name="str_todaytask"> Tugas Hari Ini</string>
+
+    <string name="str_checkbtn">Lapor Masuk</string>
+    <string name="str_gifttex">Paket Hadiah Hanya untuk Pengguna Baru! \nDapatkan ₹100 dengan mudah!! </string>
+    <string name="str_gifttex1">Selesaikan semua tugas dalam paket hadiah! \npaket hadiah! </string>
+
+    <string name="str_profileH">Profil</string>
+    <string name="str_NameProfile">Delesa Wan</string>
+    <string name="str_ProtodayC">Koin Hari Ini</string>
+    <string name="str_ProEarnings">Penghasilan</string>
+    <string name="str_inviteFD">Undang Teman</string>
+    <string name="str_incomeHistory">Riwayat Pendapatan</string>
+    <string name="str_leaderboard">Papan peringkat</string>
+    <string name="str_messages">Pesan</string>
+    <string name="str_faqs">FAQ</string>
+    <string name="str_feedback">Masukan</string>
+    <string name="str_setting">Pengaturan</string>
+
+    <string name="str_week">Minggu</string>
+    <string name="str_month">Bulan</string>
+    <string name="str_shareP">Bagikan</string>
+    <string name="str_dailogtv1">1. Maaf! Anda tidak memiliki aplikasi \n Whatsapp</string> pribadi
+    <string name="str_dailogtv2">2. Klik tombol di bawah untuk mengunduh atau \n unduh sendiri</string>
+    <string name="str_continue">Lanjutkan</string>
+
+    <string name="str_income">Penghasilan</string>
+    <string name="str_coins">Koin</string>
+    <string name="str_rupees">Rupee</string>
+    <string name="str_redeem">Tukarkan</string>
+    <string name="str_redeemtex">Jika Anda ingin mengonversi koin menjadi saldo, \nsilakan klik [ Redeem ]</string>
+    <string name="str_Daily_income">Penghasilan Harian</string>
+    <string name="str_Check_In">Hadiah Check In</string>
+
+    <string name="str_spin_wheel">Putar Roda</string>
+    <string name="str_btn_spin_wheel">Putar Roda (0/5)</string>
+    <string name="str_btn_slot_machine">Mesin Slot</string>
+
+    <string name="str_trending_game">Game Ngetren</string>
+    <string name="str_gamers">Gamer, Mungkin Anda Suka</string>
+    <string name="str_most_games">Game yang Sering Dimainkan</string>
+    <string name="str_adventure_games">Game Petualangan</string>
+    <string name="str_popular_games">Game Populer</string>
+
+    <string name="str_play">Mainkan</string>
+    <string name="str_game1">Pasang</string>
+    <string name="str_game2">Rubah Gelembung Ajaib</string>
+    <string name="str_game3">Cat Rumah</string>
+    <string name="str_game4">Selamat Popcorn</string>
+    <string name="str_game5">Lalu Lintas Lintas</string>
+    <string name="str_game6">Jungle Boy</string>
+    <string name="str_game7">Juara Gurun</string>
+    <string name="str_game8">Pertandingan Hex</string>
+    <string name="str_game9">Hoki Udara</string>
+    <string name="str_game10">Peperangan Udara</string>
+    <string name="str_game11">Alien-Hunter 2</string>
+    <string name="str_game12">Tembakan Kucing Marah</string>
+    <string name="str_game13">Hancurkan Hewan</string>
+    <string name="str_game14">Ksatria Pembunuh</string>
+    <string name="str_game15">Gerbang Gudang</string>
+    <string name="str_game16">Bola Basket</string>
+    <string name="str_game17">Biliar</string>
+    <string name="str_game18">Tumpukan Blok</string>
+    <string name="str_game19">Blokir Ular</string>
+    <string name="str_game20">Waktu Sarapan</string>
+
+    <string name="str_m_game1">Brickout</string>
+    <string name="str_m_game2">Bola Permen Karet...</string>
+    <string name="str_m_game3">Waktu Burger</string>
+    <string name="str_m_game4">Mobil</string>
+    <string name="str_m_game5">Pelari Gila</string>
+    <string name="str_m_game6">Hari yang Menyeramkan</string>
+    <string name="str_m_game7">Dasbor Kubus</string>
+    <string name="str_m_game8">Kubus Ninja</string>
+    <string name="str_m_game9">Cyber ​​Slashman</string>
+    <string name="str_m_game10">Prajurit Cyber</string>
+    <string name="str_m_game11">Ninja Gelap</string>
+    <string name="str_m_game12">Dasher</string>
+    <string name="str_m_game13">Dead-Land-A...</string>
+    <string name="str_m_game14">Juara Pertahanan</string>
+    <string name="str_m_game15">Pemburu Bebek</string>
+    <string name="str_m_game16">Penembak Bebek</string>
+    <string name="str_m_game17">Dusometrik J...</string>
+    <string name="str_m_game18">Prajurit Api</string>
+    <string name="str_m_game19">Kegilaan Memancing</string>
+    <string name="str_m_game20">Flappy Pig</string>
+
+    <string name="str_ad_game1">Lantai-Jumper</string>
+    <string name="str_ad_game2">Frog-Super Bubbl..</string>
+    <string name="str_ad_game3">Ular Buah</string>
+    <string name="str_ad_game4">Fruitslasher</string>
+    <string name="str_ad_game5">Hewan-Lucu</string>
+    <string name="str_ad_game6">Mendandani Cewek</string>
+    <string name="str_ad_game7">Menjadi Gila</string>
+    <string name="str_ad_game8">Penambang Emas</string>
+    <string name="str_ad_game9">Jack Penambang Emas</string>
+    <string name="str_ad_game10">Pertarungan Hebat</string>
+    <string name="str_ad_game11">Gelembung Halloween</string>
+    <string name="str_ad_game12">Tanpa Tangan</string>
+    <string name="str_ad_game13">Selamat Halloween</string>
+    <string name="str_ad_game14">Teka-teki Hexa</string>
+    <string name="str_ad_game15">Petualangan Joee</string>
+    <string name="str_ad_game16">Lompat Lompat</string>
+    <string name="str_ad_game17">Pelompat Pelompat</string>
+    <string name="str_ad_game18">Harta Hutan</string>
+    <string name="str_ad_game19">Zombie Vs Pisau</string>
+    <string name="str_ad_game20">Ilmuwan Gila</string>
+
+    <string name="str_rewards">Hadiah Saya</string>
+    <string name="str_language">Bahasa</string>
+    <string name="str_english">Bahasa Inggris</string>
+    <string name="str_quick">Baca Cepat</string>
+    <string name="str_calander">Pengingat Kalender</string>
+    <string name="str_pushNoti">Pemberitahuan Dorong</string>
+    <string name="str_clear_cache">Hapus Cache</string>
+    <string name="str_mb">MB</string>
+    <string name="str_check_update">Periksa Pembaruan</string>
+    <string name="str_cloud">Layanan Awan</string>
+    <string name="str_my_account">Akun Saya</string>
+    <string name="str_withdr_method">Metode Penarikan</string>
+    <string name="str_withdr_amount">Jumlah Penarikan</string>
+    <string name="str_new_amount">Pemain Baru</string>
+    <string name="str_redee_dailog">1. Proses penarikan tunai adalah:
+aplikasi - mengisi informasi -
+tinjauan aplikasi - mengeluarkan uang tunai. Silakan
+verifikasi informasi Anda sebelum mendaftar.
+2. Jika ada aplikasi yang tidak normal
+kecurangan ditemukan, penarikan
+lamaran akan ditolak.
+3. Setiap aplikasi penarikan akan
+mohon segera direview dan diselesaikan
+bersabarlah.
+4. Jika Anda memiliki pertanyaan, silakan
+hubungi shaojiefan72@gmail.com
+5. Buka peti harta karun untuk dikumpulkan
+berlian lebih cepat.
+</string>
+    <string name="str_languageSelect">Pilih Bahasa</string>
+    <string name="str_hindi">Hindi</string>
+    <string name="str_spanish">Spanyol</string>
+    <string name="str_portuguese">Portugis</string>
+    <string name="str_Korean">Bahasa Korea</string>
+    <string name="str_indonesia">Indonesia</string>
+    <string name="str_select">Pilih</string>
+    <string name="str_login">Sekarang Masuk</string>
+    <string name="str_watch"> Tonton &amp; Hasilkan</string>
+    <string name="str_get">Dapatkan Bonus ₹ 100</string>
+    <string name="str_google">Masuk dengan Google</string>
+    <string name="str_exit_yes">Ya 5s</string>
+    <string name="str_exit_no">Tidak</string>
+    <string name="str_exit">Apakah Anda ingin Keluar?</string>
+    <string name="str_rate_us_exit">Apakah Anda Menyukai aplikasi kami Beri Nilai Kami! </string>
+    <string name="str_bonus">Bonus Harian</string>
+    <string name="str_today_reward">Hadiah Hari Ini</string>
+    <string name="str_collect">Kumpulkan</string>
+
+    <string name="str_mybalance">Saldo Saya</string>
+    <string name="str_totalincome">Total Pendapatan</string>
+</resources>
